@@ -1,9 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Results.Domain.Entities;
-using System;
-using System.Collections.Generic;
+using Results.Service.Data.Entities;
 using System.IO;
-using System.Text;
 using Windows.Storage;
 
 namespace ShoppingList.Data.Connection
@@ -11,8 +9,9 @@ namespace ShoppingList.Data.Connection
     public class ResultsContext : DbContext
     {
 
-        public DbSet<Patient> Products { get; set; }
+        public DbSet<Patient> Patients { get; set; }
 
+        public DbSet<Exam> Exams { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -23,16 +22,10 @@ namespace ShoppingList.Data.Connection
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //Create Table
-            modelBuilder.Entity<Patient>(entity =>
-            {
-                entity.ToTable("Patient");
-                entity.HasKey(p => p.ID);
-                entity.Property(p => p.Name);
-                entity.Property(p => p.Email);
-                entity.Property(p => p.Password);
-                entity.Property(p => p.Exams);
-            });
+
+            modelBuilder.Entity<PatientExamKeys>()
+                          .HasKey(p => new { p.ExamId, p.PatientId});           
+                            
 
             base.OnModelCreating(modelBuilder);
         }

@@ -1,10 +1,9 @@
-﻿using Results.Domain.Entities;
-using Results.Domain.Interfaces;
+﻿using Results.Domain.Interfaces;
+using Results.Service.Data.Entities;
 using ShoppingList.Data.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ShoppingList.Data.Repositories
@@ -26,9 +25,9 @@ namespace ShoppingList.Data.Repositories
             return patientAdd;
         }
 
-        public async Task Delete(Patient product)
+        public async Task Delete(Patient patient)
         {
-            await patientDAO.Delete(product);
+            await patientDAO.Delete(patient);
         }        
 
         public async Task<IList<Patient>> FindAll()

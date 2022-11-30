@@ -627,16 +627,6 @@
             "related": ".xml"
           }
         }
-      },
-      "Results.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Results.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Results.Domain.dll": {}
-        }
       }
     }
   },
@@ -1581,19 +1571,13 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Results.Domain/1.0.0": {
-      "type": "project",
-      "path": "../Results.Domain/Results.Domain.csproj",
-      "msbuildProject": "../Results.Domain/Results.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Microsoft.EntityFrameworkCore >= 3.1.25",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.25",
-      "NETStandard.Library >= 2.0.3",
-      "Results.Domain >= 1.0.0"
+      "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
@@ -1630,11 +1614,7 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {
-            "C:\\Users\\vinicius.fl\\Documents\\GitHub\\Results\\Results\\Results.Domain\\Results.Domain.csproj": {
-              "projectPath": "C:\\Users\\vinicius.fl\\Documents\\GitHub\\Results\\Results\\Results.Domain\\Results.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Results.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Results.Domain.Entities
+namespace Results.Service.Data.Entities
 {
-    public class Patient
+    public class Patient : IEntity
     {
         public int ID { get; set; }
 
@@ -14,7 +15,7 @@ namespace Results.Domain.Entities
 
         public string Password { get; set; }
 
-        public List<Exam> Exams { get; set; }
+        public IList<PatientExamKeys> Exams { get; internal set; }
 
     }
 }

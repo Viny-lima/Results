@@ -1,10 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Results.Domain.Entities;
+using Results.Service.Data.Entities;
 using ShoppingList.Data.Connection;
 using ShoppingList.Data.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ShoppingList.Data.DAO
