@@ -1,0 +1,5 @@
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\obj\Debug\netstandard2.0\Results.Service.csproj.AssemblyReference.cache
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\obj\Debug\netstandard2.0\Results.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\obj\Debug\netstandard2.0\Results.Service.AssemblyInfoInputs.cache
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\obj\Debug\netstandard2.0\Results.Service.AssemblyInfo.cs
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\obj\Debug\netstandard2.0\Results.Service.csproj.CoreCompileInputs.cache

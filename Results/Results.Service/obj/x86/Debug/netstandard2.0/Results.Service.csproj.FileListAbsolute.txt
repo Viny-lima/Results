@@ -1,0 +1,14 @@
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\bin\x86\Debug\netstandard2.0\Results.Service.deps.json
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\bin\x86\Debug\netstandard2.0\Results.Service.dll
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\bin\x86\Debug\netstandard2.0\Results.Service.pdb
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\bin\x86\Debug\netstandard2.0\Results.Domain.dll
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\bin\x86\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\bin\x86\Debug\netstandard2.0\Results.Domain.pdb
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\obj\x86\Debug\netstandard2.0\Results.Service.csproj.AssemblyReference.cache
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\obj\x86\Debug\netstandard2.0\Results.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\obj\x86\Debug\netstandard2.0\Results.Service.AssemblyInfoInputs.cache
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\obj\x86\Debug\netstandard2.0\Results.Service.AssemblyInfo.cs
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\obj\x86\Debug\netstandard2.0\Results.Service.csproj.CoreCompileInputs.cache
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\obj\x86\Debug\netstandard2.0\Results.Service.csproj.CopyComplete
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\obj\x86\Debug\netstandard2.0\Results.Service.dll
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Service\obj\x86\Debug\netstandard2.0\Results.Service.pdb
