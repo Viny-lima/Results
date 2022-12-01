@@ -1,0 +1,12 @@
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\bin\Debug\netstandard2.0\Results.Operations.deps.json
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\bin\Debug\netstandard2.0\Results.Operations.dll
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\bin\Debug\netstandard2.0\Results.Operations.pdb
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\obj\Debug\netstandard2.0\Results.Operations.csproj.AssemblyReference.cache
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\obj\Debug\netstandard2.0\Results.Operations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\obj\Debug\netstandard2.0\Results.Operations.AssemblyInfoInputs.cache
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\obj\Debug\netstandard2.0\Results.Operations.AssemblyInfo.cs
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\obj\Debug\netstandard2.0\Results.Operations.csproj.CoreCompileInputs.cache
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\obj\Debug\netstandard2.0\Results.Operations.csproj.CopyComplete
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\obj\Debug\netstandard2.0\Results.Operations.dll
+C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\obj\Debug\netstandard2.0\Results.Operations.pdb
