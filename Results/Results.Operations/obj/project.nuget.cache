@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1Lnr4QWAJEcdCKQ2j7mvtiHJ0xBHQ/xCJ015TXC0uMTK/qpQ2eKbRu4butP4w7adF1b4bqUtMYeFzrgjJtF5Vw==",
+  "dgSpecHash": "guoi2gKUgbE2cccVny7j1uCBzaRKHjrym1enQF8szmCbpEa2Nzm1Uh6en1HcmRWeaVfwzqTX5nayvrcUgAYADw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vinicius.fl\\Documents\\GitHub\\Results\\Results\\Results.Operations\\Results.Operations.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vinicius.fl\\.nuget\\packages\\autofac\\6.5.0\\autofac.6.5.0.nupkg.sha512",
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\microsoft.data.sqlite.core\\3.1.25\\microsoft.data.sqlite.core.3.1.25.nupkg.sha512",

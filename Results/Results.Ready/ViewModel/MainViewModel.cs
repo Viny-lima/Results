@@ -35,7 +35,7 @@ namespace Results.Ready.ViewModel
                     Description = "World",
                     Data = DateTime.Now
                 }
-            };
+            };            
         }
         public void LoadListExams()
         {

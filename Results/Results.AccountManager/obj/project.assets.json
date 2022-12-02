@@ -1173,10 +1173,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -2472,10 +2488,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -3772,10 +3804,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -5072,10 +5120,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -6371,10 +6435,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -7671,10 +7751,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -8970,10 +9066,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -10270,10 +10382,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -15463,6 +15591,11 @@
         "version.txt"
       ]
     },
+    "Results.Notifier/1.0.0": {
+      "type": "project",
+      "path": "../Results.Notifier/Results.Notifier.csproj",
+      "msbuildProject": "../Results.Notifier/Results.Notifier.csproj"
+    },
     "Results.Operations/1.0.0": {
       "type": "project",
       "path": "../Results.Operations/Results.Operations.csproj",
@@ -15473,6 +15606,7 @@
     "UAP,Version=v10.0.17763": [
       "Autofac >= 6.5.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.14",
+      "Results.Notifier >= 1.0.0",
       "Results.Operations >= 1.0.0"
     ]
   },
@@ -15510,6 +15644,9 @@
       "frameworks": {
         "uap10.0.17763": {
           "projectReferences": {
+            "C:\\Users\\vinicius.fl\\Documents\\GitHub\\Results\\Results\\Results.Notifier\\Results.Notifier.csproj": {
+              "projectPath": "C:\\Users\\vinicius.fl\\Documents\\GitHub\\Results\\Results\\Results.Notifier\\Results.Notifier.csproj"
+            },
             "C:\\Users\\vinicius.fl\\Documents\\GitHub\\Results\\Results\\Results.Operations\\Results.Operations.csproj": {
               "projectPath": "C:\\Users\\vinicius.fl\\Documents\\GitHub\\Results\\Results\\Results.Operations\\Results.Operations.csproj"
             }

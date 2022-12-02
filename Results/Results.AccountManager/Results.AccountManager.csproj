@@ -186,6 +186,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Results.Notifier\Results.Notifier.csproj">
+      <Project>{1b43ba12-8125-42e3-8f60-d676772a967b}</Project>
+      <Name>Results.Notifier</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Results.Operations\Results.Operations.csproj">
       <Project>{4C74B207-6C3B-45DE-A3CC-276ECBE2B292}</Project>
       <Name>Results.Operations</Name>

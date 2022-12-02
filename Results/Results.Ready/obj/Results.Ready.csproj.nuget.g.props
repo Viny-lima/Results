@@ -43,8 +43,8 @@
     <Pkgruntime_win10-arm_Microsoft_Net_UWPCoreRuntimeSdk Condition=" '$(Pkgruntime_win10-arm_Microsoft_Net_UWPCoreRuntimeSdk)' == '' ">C:\Users\vinicius.fl\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14</Pkgruntime_win10-arm_Microsoft_Net_UWPCoreRuntimeSdk>
     <Pkgruntime_win10-arm_Microsoft_Net_Native_SharedLibrary Condition=" '$(Pkgruntime_win10-arm_Microsoft_Net_Native_SharedLibrary)' == '' ">C:\Users\vinicius.fl\.nuget\packages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.8-rel-31116-00</Pkgruntime_win10-arm_Microsoft_Net_Native_SharedLibrary>
     <Pkgruntime_win10-arm_Microsoft_Net_Native_Compiler Condition=" '$(Pkgruntime_win10-arm_Microsoft_Net_Native_Compiler)' == '' ">C:\Users\vinicius.fl\.nuget\packages\runtime.win10-arm.microsoft.net.native.compiler\2.2.12-rel-31116-00</Pkgruntime_win10-arm_Microsoft_Net_Native_Compiler>
-    <PkgMicrosoft_ServiceHub_Analyzers Condition=" '$(PkgMicrosoft_ServiceHub_Analyzers)' == '' ">C:\Users\vinicius.fl\.nuget\packages\microsoft.servicehub.analyzers\4.1.112</PkgMicrosoft_ServiceHub_Analyzers>
     <PkgMicrosoft_Net_UWPCoreRuntimeSdk Condition=" '$(PkgMicrosoft_Net_UWPCoreRuntimeSdk)' == '' ">C:\Users\vinicius.fl\.nuget\packages\microsoft.net.uwpcoreruntimesdk\2.2.14</PkgMicrosoft_Net_UWPCoreRuntimeSdk>
     <PkgMicrosoft_Net_Native_Compiler Condition=" '$(PkgMicrosoft_Net_Native_Compiler)' == '' ">C:\Users\vinicius.fl\.nuget\packages\microsoft.net.native.compiler\2.2.12-rel-31116-00</PkgMicrosoft_Net_Native_Compiler>
+    <PkgMicrosoft_ServiceHub_Analyzers Condition=" '$(PkgMicrosoft_ServiceHub_Analyzers)' == '' ">C:\Users\vinicius.fl\.nuget\packages\microsoft.servicehub.analyzers\4.1.112</PkgMicrosoft_ServiceHub_Analyzers>
   </PropertyGroup>
 </Project>

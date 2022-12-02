@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Ready\bin\x86\Debug\Results.Ready.exe">
       <PackagePath>entrypoint\Results.Ready.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\.nuget\packages\autofac\6.5.0\lib\netstandard2.0\Autofac.dll">
+      <PackagePath>Autofac.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\.nuget\packages\messagepack\2.4.35\lib\netstandard2.0\MessagePack.dll">
       <PackagePath>MessagePack.dll</PackagePath>
     </AppxPackagedFile>
@@ -457,7 +460,10 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22000.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd">
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Notifier\bin\x86\Debug\Results.Notifier.winmd">
+      <PackagePath>Results.Notifier.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Notifier\bin\x86\Debug\Windows.Foundation.UniversalApiContract.winmd">
       <PackagePath>Windows.Foundation.UniversalApiContract.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Ready\Properties\Default.rd.xml">

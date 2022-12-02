@@ -6,6 +6,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
+using Windows.ApplicationModel;
+using Windows.ApplicationModel.AppService;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -26,6 +29,8 @@ namespace Results.AccountManager.Views
     public sealed partial class SignView : Page
     {
         IPatientService patientService;
+        Patient patient;
+        AppServiceConnection readyConnection;
 
         public SignView()
         {
@@ -38,19 +43,52 @@ namespace Results.AccountManager.Views
             var email = Email.Text;
             var password = Password.Text;
 
-            var patient = await patientService.Login(email, password);
+            patient = await patientService.Login(email, password);
 
-            if (patient != null)
+            if (patient != null) await OnSignIn();
+        }
+
+        private async Task OnSignIn()
+        {
+            //Initialize Connection
+            if (readyConnection == null)
+            {
+                this.readyConnection= new AppServiceConnection();
+                this.readyConnection.AppServiceName = "com.results.readyappservice";
+                this.readyConnection.PackageFamilyName = Package.Current.Id.FamilyName;
+
+                var status = await this.readyConnection.OpenAsync();
+
+                if (status != AppServiceConnectionStatus.Success)
+                {
+                    Alert.Text = "Failed to connect";
+                    Alert.Visibility = Visibility.Visible;
+                    this.readyConnection = null;
+                    return;
+                }
+            }
+
+            //Call the Service
+            var message = new ValueSet
+            {
+                { "Command", "Sign" },
+                { "ID", patient.ID }
+            };
+
+            AppServiceResponse response = await this.readyConnection.SendMessageAsync(message);
+
+            if (response.Status == AppServiceResponseStatus.Success)
             {
                 ClearView();
                 Alert.Visibility = Visibility.Collapsed;
-
                 Frame.Navigate(typeof(CompletedView), patient);
             }
             else
             {
                 ClearView();
+                Alert.Text = "Failed to connect";
                 Alert.Visibility = Visibility.Visible;
+                patient = null;
             }
 
         }

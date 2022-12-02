@@ -8,8 +8,7 @@
     xmlns:doamin="using:Results.Operations.Data.Entities"
     xmlns:converters="using:Results.Ready.Converts"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-    Loaded="Page_Loaded">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Page.Resources>
         
@@ -66,7 +65,7 @@
                   Padding="20"
                   BorderThickness="0"
                   ItemTemplate="{StaticResource ExamItem}"
-                  ItemsSource="{x:Bind Exams}"
+                  ItemsSource="{x:Bind ViewModel.ListExams, Mode=OneWay}"
                   Background="Transparent"        
                   SelectionMode="Single"   
                   IsItemClickEnabled="True"

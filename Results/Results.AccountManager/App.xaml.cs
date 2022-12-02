@@ -7,6 +7,7 @@ using Results.Operations.Data.DAO;
 using Results.Operations.Data.Entities;
 using Results.Operations.Data.Interfaces;
 using Results.Operations.Data.Repository;
+using Results.Operations.Events;
 using Results.Service.Services;
 using System;
 using System.Collections.Generic;
@@ -43,15 +44,12 @@ namespace Results.AccountManager
         }
 
         private static IContainer CreateSDK()
-        {
-            
+        {            
             var builder = new ContainerBuilder();
 
-            builder.RegisterSource(new AnyConcreteTypeNotAlreadyRegisteredSource());
-
-            builder.RegisterType<PatientDAOEntity>().As<IPatientDAO>().AsImplementedInterfaces();
-            builder.RegisterType<PatientRepository>().As<IPatientRepository>().AsImplementedInterfaces();
-            builder.RegisterType<PatientService>().As<IPatientService>().AsImplementedInterfaces();
+            builder.Register(c => new PatientDAOEntity()).As<IPatientDAO>();
+            builder.Register(c => new PatientRepository(patientDAO: c.Resolve<IPatientDAO>())).As<IPatientRepository>();
+            builder.Register(c => new PatientService(repository: c.Resolve<IPatientRepository>())).As<IPatientService>();
 
             IContainer container = builder.Build();
             return container;

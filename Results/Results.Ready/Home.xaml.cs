@@ -1,4 +1,5 @@
-﻿using Results.Ready.ViewModel;
+﻿using Autofac;
+using Results.Ready.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -25,12 +26,12 @@ namespace Results.Ready
         public Home()
         {
             this.InitializeComponent();
-            ViewModel = new HomeViewModel();
+            ViewModel = App.sdk.Resolve<HomeViewModel>();
         }
 
         private void SeeExams_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(MainPage));
+            Frame.Navigate(typeof(MainPage), ViewModel.PatientId);
         }
     }
 }

@@ -2,6 +2,23 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.17763": {
+      "Autofac/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MessagePack/2.4.35": {
         "type": "package",
         "dependencies": {
@@ -2131,10 +2148,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -2147,6 +2180,23 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm": {
+      "Autofac/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MessagePack/2.4.35": {
         "type": "package",
         "dependencies": {
@@ -4377,10 +4427,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -4393,6 +4459,23 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm-aot": {
+      "Autofac/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MessagePack/2.4.35": {
         "type": "package",
         "dependencies": {
@@ -7118,10 +7201,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -7134,6 +7233,23 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
+      "Autofac/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MessagePack/2.4.35": {
         "type": "package",
         "dependencies": {
@@ -9859,10 +9975,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -9875,6 +10007,23 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64": {
+      "Autofac/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MessagePack/2.4.35": {
         "type": "package",
         "dependencies": {
@@ -12105,10 +12254,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -12121,6 +12286,23 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64-aot": {
+      "Autofac/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MessagePack/2.4.35": {
         "type": "package",
         "dependencies": {
@@ -14846,10 +15028,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -14862,6 +15060,23 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
+      "Autofac/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MessagePack/2.4.35": {
         "type": "package",
         "dependencies": {
@@ -17092,10 +17307,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -17108,6 +17339,23 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86-aot": {
+      "Autofac/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MessagePack/2.4.35": {
         "type": "package",
         "dependencies": {
@@ -19833,10 +20081,26 @@
           }
         }
       },
+      "Results.Notifier/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.14",
+          "Results.Operations": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Notifier.dll": {}
+        }
+      },
       "Results.Operations/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Autofac": "6.5.0",
           "Microsoft.EntityFrameworkCore": "3.1.25",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.25"
         },
@@ -19850,6 +20114,27 @@
     }
   },
   "libraries": {
+    "Autofac/6.5.0": {
+      "sha512": "sm6HWWBDEoTPGXeyOchMygJ/7L89VxmVH72BFxakG88J34AVjA8RMi5jbv3PdpUtXI/d9ZLKOaxCmOSIo2K4aA==",
+      "type": "package",
+      "path": "autofac/6.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.6.5.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net5.0/Autofac.dll",
+        "lib/net5.0/Autofac.xml",
+        "lib/net6.0/Autofac.dll",
+        "lib/net6.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "MessagePack/2.4.35": {
       "sha512": "sWyuByDues5fXghrCXXt5BSiqsQSjFWC+srBU97iwWWCV3JhiI3HoML5/Uj4zK9yD8pnAk2oobuuvwYfHhUruA==",
       "type": "package",
@@ -28093,6 +28378,11 @@
         "version.txt"
       ]
     },
+    "Results.Notifier/1.0.0": {
+      "type": "project",
+      "path": "../Results.Notifier/Results.Notifier.csproj",
+      "msbuildProject": "../Results.Notifier/Results.Notifier.csproj"
+    },
     "Results.Operations/1.0.0": {
       "type": "project",
       "path": "../Results.Operations/Results.Operations.csproj",
@@ -28101,8 +28391,10 @@
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
+      "Autofac >= 6.5.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.14",
       "Microsoft.VisualStudio.Utilities >= 17.4.33103.184",
+      "Results.Notifier >= 1.0.0",
       "Results.Operations >= 1.0.0"
     ]
   },
@@ -28140,6 +28432,9 @@
       "frameworks": {
         "uap10.0.17763": {
           "projectReferences": {
+            "C:\\Users\\vinicius.fl\\Documents\\GitHub\\Results\\Results\\Results.Notifier\\Results.Notifier.csproj": {
+              "projectPath": "C:\\Users\\vinicius.fl\\Documents\\GitHub\\Results\\Results\\Results.Notifier\\Results.Notifier.csproj"
+            },
             "C:\\Users\\vinicius.fl\\Documents\\GitHub\\Results\\Results\\Results.Operations\\Results.Operations.csproj": {
               "projectPath": "C:\\Users\\vinicius.fl\\Documents\\GitHub\\Results\\Results\\Results.Operations\\Results.Operations.csproj"
             }
@@ -28150,6 +28445,10 @@
     "frameworks": {
       "uap10.0.17763": {
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[6.5.0, )"
+          },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.14, )"

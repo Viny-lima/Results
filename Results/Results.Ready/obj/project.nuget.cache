@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4rSwyKHSTT8M4OesSM2dL8wKD5x+JIEmBsIRMoDylaWUiw63TrlJSN/I3r+AV/8lMJZDVwIpG6iPmb7bPfzLYQ==",
+  "dgSpecHash": "9+fY4oNY7ugID6+LsQxvv3+KwvBag3GZquqgoWdfS0OPZDUToxARWY+J9vcKTaLMetuemeK6C6JWgClUtCB6Sw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vinicius.fl\\Documents\\GitHub\\Results\\Results\\Results.Ready\\Results.Ready.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vinicius.fl\\.nuget\\packages\\autofac\\6.5.0\\autofac.6.5.0.nupkg.sha512",
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\messagepack\\2.4.35\\messagepack.2.4.35.nupkg.sha512",
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\messagepack.annotations\\2.4.35\\messagepack.annotations.2.4.35.nupkg.sha512",
     "C:\\Users\\vinicius.fl\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

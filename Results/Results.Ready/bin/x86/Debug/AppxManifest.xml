@@ -42,6 +42,11 @@
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.appService" EntryPoint="Results.Notifier.ReadyAppService">
+          <uap:AppService Name="com.results.readyappservice" />
+        </uap:Extension>
+      </Extensions>
     </Application>
   </Applications>
   <Capabilities>
@@ -52,6 +57,8 @@
       <InProcessServer>
         <Path>CLRHost.dll</Path>
         <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Markup.ReflectionXamlMetadataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Results.Notifier.ReadyAppService" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Results.Notifier.AccountManagerAppService" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>

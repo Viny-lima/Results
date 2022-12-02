@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Ready\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>58F726B806E5A69E071CC2379850626044D71A4FCFA4ADE0E33CD15E40C86398</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>E13662320366FFA23295C02CDCDE3AE5A9F43578E9F15A3F912EB2098E546AF6</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>21d5b992-bf1d-42e3-a044-e3c77bca43e5_1.0.0.0_x86__k5bx3m1fq11y8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>21d5b992-bf1d-42e3-a044-e3c77bca43e5_k5bx3m1fq11y8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>21d5b992-bf1d-42e3-a044-e3c77bca43e5</RegisteredPackageID>
@@ -30,13 +30,17 @@
     <AppXManifest Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Ready\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-02T02:14:52.373</Modified>
+      <Modified>2022-12-02T13:20:53.655</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Ready\bin\x86\Debug\Results.Ready.exe">
       <PackagePath>entrypoint\Results.Ready.exe</PackagePath>
-      <Modified>2022-12-02T02:14:50.283</Modified>
+      <Modified>2022-12-02T13:20:51.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\.nuget\packages\autofac\6.5.0\lib\netstandard2.0\Autofac.dll">
+      <PackagePath>Autofac.dll</PackagePath>
+      <Modified>2022-11-16T19:22:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\.nuget\packages\messagepack\2.4.35\lib\netstandard2.0\MessagePack.dll">
       <PackagePath>MessagePack.dll</PackagePath>
@@ -610,7 +614,11 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2022-07-15T20:17:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd">
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Notifier\bin\x86\Debug\Results.Notifier.winmd">
+      <PackagePath>Results.Notifier.winmd</PackagePath>
+      <Modified>2022-12-02T13:18:16.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Notifier\bin\x86\Debug\Windows.Foundation.UniversalApiContract.winmd">
       <PackagePath>Windows.Foundation.UniversalApiContract.winmd</PackagePath>
       <Modified>2022-07-15T19:13:54.000</Modified>
     </AppxPackagedFile>
@@ -654,19 +662,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Ready\bin\x86\Debug\Results.Ready.xr.xml">
       <PackagePath>Results.Ready.xr.xml</PackagePath>
-      <Modified>2022-12-02T02:14:48.862</Modified>
+      <Modified>2022-12-02T13:18:25.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Ready\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-12-02T02:14:48.870</Modified>
+      <Modified>2022-12-02T13:20:49.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Ready\bin\x86\Debug\Home.xbf">
       <PackagePath>Home.xbf</PackagePath>
-      <Modified>2022-12-02T02:14:48.871</Modified>
+      <Modified>2022-12-02T13:20:49.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Ready\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-12-02T02:14:48.871</Modified>
+      <Modified>2022-12-02T13:20:49.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22000.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -674,11 +682,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Ready\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-12-02T02:05:39.449</Modified>
+      <Modified>2022-12-02T13:18:31.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Ready\bin\x86\Debug\Core\Results.Ready.exe">
       <PackagePath>Results.Ready.exe</PackagePath>
-      <Modified>2022-12-02T02:14:51.735</Modified>
+      <Modified>2022-12-02T13:20:52.944</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
