@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using Autofac.Features.ResolveAnything;
+using Results.AccountManager.Views;
 using Results.Operations.Core;
 using Results.Operations.Data.Connection;
 using Results.Operations.Data.DAO;
@@ -28,8 +29,7 @@ namespace Results.AccountManager
 {
     sealed partial class App : Application
     {
-
-        public IContainer sdk { get; set; }
+        public static IContainer sdk { get; set; }
 
         public App()
         {
@@ -79,7 +79,7 @@ namespace Results.AccountManager
             {
                 if (rootFrame.Content == null)
                 {
-                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                    rootFrame.Navigate(typeof(HomeView), e.Arguments);
                 }
 
                 Window.Current.Activate();

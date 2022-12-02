@@ -16,12 +16,21 @@ namespace Results.Service.Services
             this.repository = repository;
         }
 
+        public async Task<Patient> Login(string email, string password)
+        {
+            var patient = repository.FindAll().Result.ToList()
+                                       .FirstOrDefault(p => p.Email == email && p.Password == password);
+
+            return await Task.FromResult(patient);
+        }
+
         public async Task<List<Patient>> FindAll()
         {
             var listAsync = repository.FindAll().Result.ToList();
 
             return await Task.FromResult(listAsync);
         }
+
 
         public Task<Patient> FindById(int id) => repository.FindById(id);
 

@@ -1,4 +1,8 @@
-﻿using System;
+﻿using Autofac;
+using Results.Operations.Core;
+using Results.Operations.Data.Entities;
+using Results.Service.Services;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -17,14 +21,39 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Results.AccountManager.Views
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
     public sealed partial class RegisterView : Page
     {
+        IPatientService patientService;
+
         public RegisterView()
         {
             this.InitializeComponent();
+            patientService =  App.sdk.Resolve<IPatientService>();
+        }
+
+        private void SubmitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var patient = new Patient()
+            {
+                Name = Name.Text,
+                Email = Email.Text,
+                Password = Password.Text
+            };
+
+            patientService.Registered(patient);      
+            ClearView();
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.GoBack();
+        }
+
+        private void ClearView()
+        {
+            Name.Text = String.Empty;
+            Email.Text = String.Empty;
+            Password.Text = String.Empty;
         }
     }
 }

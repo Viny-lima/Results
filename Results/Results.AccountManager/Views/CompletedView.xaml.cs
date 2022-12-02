@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Results.Operations.Data.Entities;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,9 +23,27 @@ namespace Results.AccountManager.Views
     /// </summary>
     public sealed partial class CompletedView : Page
     {
+
+        public Patient Patient { get; set; }
+
         public CompletedView()
         {
             this.InitializeComponent();
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            Patient = (Patient) e.Parameter;
+        }
+
+        private void RegiterExam_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(RegisterExamas), Patient);
+        }
+
+        private void BackBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.GoBack();
         }
     }
 }

@@ -16,5 +16,10 @@ namespace Results.Operations.Data.Entities
 
         public IList<PatientExamKeys> Exams { get; internal set; }
 
+        public Patient()
+        {
+            this.Exams = new List<PatientExamKeys>();
+        }
+
     }
 }

@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-01T02:35:41.857</Modified>
+      <Modified>2022-12-02T00:22:52.486</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Results.AccountManager.exe">
       <PackagePath>entrypoint\Results.AccountManager.exe</PackagePath>
-      <Modified>2022-12-01T02:35:38.971</Modified>
+      <Modified>2022-12-02T00:22:50.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\.nuget\packages\autofac\6.5.0\lib\netstandard2.0\Autofac.dll">
       <PackagePath>Autofac.dll</PackagePath>
@@ -164,7 +164,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.Operations\bin\Debug\netstandard2.0\Results.Operations.dll">
       <PackagePath>Results.Operations.dll</PackagePath>
-      <Modified>2022-12-01T02:31:35.644</Modified>
+      <Modified>2022-12-02T00:22:45.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22000.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -214,15 +214,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Results.AccountManager.xr.xml">
       <PackagePath>Results.AccountManager.xr.xml</PackagePath>
-      <Modified>2022-12-01T02:35:38.883</Modified>
+      <Modified>2022-12-01T23:55:11.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-12-01T02:35:38.897</Modified>
+      <Modified>2022-12-02T00:22:50.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-12-01T02:35:38.898</Modified>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Views\CompletedView.xbf">
+      <PackagePath>Views\CompletedView.xbf</PackagePath>
+      <Modified>2022-12-02T00:22:50.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Views\HomeView.xbf">
+      <PackagePath>Views\HomeView.xbf</PackagePath>
+      <Modified>2022-12-02T00:22:50.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Views\RegisterExamas.xbf">
+      <PackagePath>Views\RegisterExamas.xbf</PackagePath>
+      <Modified>2022-12-02T00:22:50.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Views\RegisterView.xbf">
+      <PackagePath>Views\RegisterView.xbf</PackagePath>
+      <Modified>2022-12-02T00:22:50.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Views\SignView.xbf">
+      <PackagePath>Views\SignView.xbf</PackagePath>
+      <Modified>2022-12-02T00:22:50.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22000.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -230,11 +246,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-12-01T02:31:56.470</Modified>
+      <Modified>2022-12-01T23:43:00.054</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Core\Results.AccountManager.exe">
       <PackagePath>Results.AccountManager.exe</PackagePath>
-      <Modified>2022-12-01T02:35:40.768</Modified>
+      <Modified>2022-12-02T00:22:51.973</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

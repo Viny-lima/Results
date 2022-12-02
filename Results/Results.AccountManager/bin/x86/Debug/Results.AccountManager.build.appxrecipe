@@ -166,8 +166,20 @@
     <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Views\CompletedView.xbf">
+      <PackagePath>Views\CompletedView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Views\HomeView.xbf">
+      <PackagePath>Views\HomeView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Views\RegisterExamas.xbf">
+      <PackagePath>Views\RegisterExamas.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Views\RegisterView.xbf">
+      <PackagePath>Views\RegisterView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\vinicius.fl\Documents\GitHub\Results\Results\Results.AccountManager\bin\x86\Debug\Views\SignView.xbf">
+      <PackagePath>Views\SignView.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22000.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

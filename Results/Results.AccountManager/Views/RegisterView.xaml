@@ -10,5 +10,30 @@
 
     <Grid>
 
+        <StackPanel HorizontalAlignment="Center"
+                   VerticalAlignment="Center">
+            <TextBox x:Name="Name" 
+                     Header="Name"
+                     PlaceholderText="name"
+                     Width="200"/>
+            <TextBox x:Name="Email" 
+                     Header="Email" 
+                     PlaceholderText="Email"
+                     Width="200"/>
+            <TextBox x:Name="Password" 
+                     Header="Password"
+                     PlaceholderText="Password"
+                     Width="200"/>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="SubmitBtn" 
+                    Content="Submit"
+                    Click="SubmitBtn_Click"/>
+                <Button x:Name="Back" 
+                    Content="Back" Click="Back_Click"
+                    Margin="20 20"/>
+            </StackPanel>
+            
+        </StackPanel>
+
     </Grid>
 </Page>

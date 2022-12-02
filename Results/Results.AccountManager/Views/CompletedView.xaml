@@ -9,6 +9,30 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <StackPanel HorizontalAlignment="Center"
+                  VerticalAlignment="Center">
+            <TextBlock x:Name="Name"
+                       FontSize="50"
+                       Foreground="ForestGreen"
+                       Text="{x:Bind Patient.Name}"
+                       />
+            <TextBlock x:Name="Email"                       
+                       HorizontalAlignment="Center"
+                       Text="{x:Bind Patient.Email}"
+                       Margin="0 20"
+                       />
+            <Button x:Name="RegiterExam" 
+                    Content="Add Exams"
+                    HorizontalAlignment="Center"
+                    Click="RegiterExam_Click"
+                    />
+            <Button x:Name="BackBtn" 
+                    Content="Back"
+                    HorizontalAlignment="Center"
+                    Margin=" 0 20"
+                    Width="90"
+                    Click="BackBtn_Click"
+                    />
+        </StackPanel>
     </Grid>
 </Page>

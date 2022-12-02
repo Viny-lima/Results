@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Autofac;
+using Results.Operations.Core;
+using Results.Operations.Data.Entities;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,9 +25,46 @@ namespace Results.AccountManager.Views
     /// </summary>
     public sealed partial class SignView : Page
     {
+        IPatientService patientService;
+
         public SignView()
         {
             this.InitializeComponent();
+            patientService = App.sdk.Resolve<IPatientService>();
         }
+
+        private async void SignBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var email = Email.Text;
+            var password = Password.Text;
+
+            var patient = await patientService.Login(email, password);
+
+            if (patient != null)
+            {
+                ClearView();
+                Alert.Visibility = Visibility.Collapsed;
+
+                Frame.Navigate(typeof(CompletedView), patient);
+            }
+            else
+            {
+                ClearView();
+                Alert.Visibility = Visibility.Visible;
+            }
+
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.GoBack();
+        }
+
+        private void ClearView()
+        {
+            Email.Text = String.Empty;
+            Password.Text = String.Empty;
+        }
+
     }
 }

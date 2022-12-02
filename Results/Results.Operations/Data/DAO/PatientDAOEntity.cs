@@ -25,12 +25,20 @@ namespace Results.Operations.Data.DAO
 
         public async Task<Patient> Read(int id)
         {
-            return await _context.Set<Patient>().FindAsync(id);
+            var patient = await _context.Set<Patient>()
+                          .Include(prop => prop.Exams)
+                          .ThenInclude(prop => prop.Exam)
+                          .FirstOrDefaultAsync(p => p.ID == id);
+
+            return patient;
         }
 
         public async Task<List<Patient>> ReadAll()
         {
-            return await _context.Set<Patient>().ToListAsync();
+            return await _context.Set<Patient>()
+                                     .Include(prop => prop.Exams)
+                                     .ThenInclude(prop => prop.Exam)
+                                     .ToListAsync();
         }
 
         public async Task Update(Patient patient)

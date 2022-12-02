@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="Results.AccountManager.Views.HomeView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Results.AccountManager.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" 
+                    VerticalAlignment="Center">
+            <TextBlock Text="RESULTS"
+                      HorizontalAlignment="Center"
+                       FontSize="40"
+                       Margin="30 0"/>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="SignBtn"
+                     Content="Sign" 
+                     Margin="20 20"
+                     Width="80"
+                     Click="SignBtn_Click"/>
+                <Button x:Name="RegisterBtn"
+                    Content="Register"
+                    Width="80"
+                    Click="RegisterBtn_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
