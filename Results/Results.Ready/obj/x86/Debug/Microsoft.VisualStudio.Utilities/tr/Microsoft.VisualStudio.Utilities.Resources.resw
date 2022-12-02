@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_InsufficientSourceParameters" xml:space="preserve">
+    <value>{0}.{1}: Dönüştürücü {2} kaynak parametre gerektiriyor, {3} kaynak parametre sağlandı.</value>
+  </data>
+  <data name="Error_InvalidExtensionNoLeadingPeriod" xml:space="preserve">
+    <value>Uzantının ilk karakteri nokta ('.') olmalıdır.</value>
+  </data>
+  <data name="Error_FlagNotRegistered" xml:space="preserve">
+    <value>Yalnızca kaydedilmiş özellik bayrakları ayarlanabilir</value>
+  </data>
+  <data name="Error_InvalidMessageVersionHeader" xml:space="preserve">
+    <value>Geçerli duruma göre, ileti sürümü üst bilgisi geçersiz.</value>
+  </data>
+  <data name="ValidateError_StringEmpty" xml:space="preserve">
+    <value>Dize boş.</value>
+  </data>
+  <data name="Error_InsufficientTypeParameters" xml:space="preserve">
+    <value>{0}.{1}: Dönüştürücü {2} tür parametresi gerektiriyor, {3} tür parametresi sağlandı.</value>
+  </data>
+  <data name="Error_InvalidNullableTypeCode" xml:space="preserve">
+    <value>Geçersiz null olabilen tür kodu {0}.</value>
+  </data>
+  <data name="MisplacedSettingPathWildcard" xml:space="preserve">
+    <value>Joker karakterlere yalnızca özellik adlarının sonunda izin verilir.</value>
+  </data>
+  <data name="Error_TargetNotExtendingType" xml:space="preserve">
+    <value>{1}.{2}: beklenmeyen hedef türü:{0}Beklenen hedef türü: {3}{0}Gerçek hedef türü: {4}</value>
+  </data>
+  <data name="JsonSerializationFailed" xml:space="preserve">
+    <value>Dosya JSON olarak seri hale getirilemiyor.</value>
+  </data>
+  <data name="Error_NullSerializerFieldCodeNullable" xml:space="preserve">
+    <value>SerializerFieldCode.Nullable alanının değeri null olamaz, null değerler SerializerFieldCode.NullableType veya Nil ile kodlanmış olmalıdır.</value>
+  </data>
+  <data name="Error_DeserializationCallbackFailure" xml:space="preserve">
+    <value>Temsilci yazılan veri miktarını okumadı</value>
+  </data>
+  <data name="Error_InvalidExtensionTooManyPeriods" xml:space="preserve">
+    <value>Uzantı yalnızca tek bir nokta ('.') içerebilir.</value>
+  </data>
+  <data name="ValidateError_InvalidValue_Format" xml:space="preserve">
+    <value>Bağımsız değişken değeri {0} {1} beklenen değeri değil.</value>
+  </data>
+  <data name="Error_NeedStreamCountOrStorageSize" xml:space="preserve">
+    <value>maxStreamCount veya maxStorageSize değerlerinden en az birinin sıfırdan büyük olması gerekir</value>
+  </data>
+  <data name="Error_InvalidRootPath" xml:space="preserve">
+    <value>Bu, kök yol olmayabilir.</value>
+  </data>
+  <data name="ValidateError_PathNotNormalized_Format" xml:space="preserve">
+    <value>Yol \"{0}\" normale döndürülemez.</value>
+  </data>
+  <data name="Error_MaximumObjectIdentifierExceeded" xml:space="preserve">
+    <value>Nesne tanımlayıcısı üst sınırı aşıldı.</value>
+  </data>
+  <data name="ValidateError_UnexpectedValue_Format" xml:space="preserve">
+    <value>{0} değeri {1} bağımsız değişkeni için beklenmeyen bir değerdir.</value>
+  </data>
+  <data name="Error_NeedSuccessCode" xml:space="preserve">
+    <value>{0} parametresi bir hata olduğunu gösteriyor.</value>
+  </data>
+  <data name="ValidateError_InvalidOperation" xml:space="preserve">
+    <value>Bu işlem şu anda yürütülemiyor. {0} nesnesi null değil.</value>
+  </data>
+  <data name="Error_DependsOnPropertyNotFound" xml:space="preserve">
+    <value>{0}.{1}, bulunamayan bir özelliğe bağımlı: {2}</value>
+  </data>
+  <data name="ServiceUnavailable_Format" xml:space="preserve">
+    <value>{0} hizmeti kullanılamıyor.</value>
+  </data>
+  <data name="Error_ConverterFunctionNotDefined" xml:space="preserve">
+    <value>{0}: {1} bu dönüştürücü için tanımlı değil.</value>
+  </data>
+  <data name="Error_MetadataMapShouldHaveSize" xml:space="preserve">
+    <value>{0} için meta verilerin eşleme boyutu {1} olmalıdır.</value>
+  </data>
+  <data name="Error_InvalidTimestampKind" xml:space="preserve">
+    <value>Geçersiz zaman damgası türü: {0}</value>
+  </data>
+  <data name="Error_UnexpectedStreamVersion" xml:space="preserve">
+    <value>Beklenmeyen akış sürümü:  beklenen sürüm={0}, asıl sürüm={1}</value>
+  </data>
+  <data name="Error_TargetAtOffsetNotExtendingType" xml:space="preserve">
+    <value>{1}.{2}: Uzaklıkta beklenmeyen hedef türü {5}:{0}Beklenen hedef türü: {3}{0}Gerçek hedef türü: {4}</value>
+  </data>
+  <data name="ValidateError_GuidEmpty" xml:space="preserve">
+    <value>Guid boş.</value>
+  </data>
+  <data name="ValidateError_StringWhiteSpace" xml:space="preserve">
+    <value>Dize null veya yalnızca boşluk karakterleri içeriyor olamaz.</value>
+  </data>
+  <data name="Error_ThicknessConverter_InvalidValues" xml:space="preserve">
+    <value>{0} 1, 2 veya 4 giriş değeri gerektiriyor</value>
+  </data>
+  <data name="NormalizeError_InvalidPathChar" xml:space="preserve">
+    <value>Yol geçersiz bir karakter içeriyor.</value>
+  </data>
+  <data name="Error_InvalidStreamAccess" xml:space="preserve">
+    <value>Geçersiz akış erişimi: {0}</value>
+  </data>
+  <data name="Error_PrivateToSharedNameTranslatorReturnedNullOrEmpty" xml:space="preserve">
+    <value>Özelden paylaşılana ad çeviricisi, paylaşılan {0} ayarı için null veya boş bir dize döndürdü.</value>
+  </data>
+  <data name="Error_InvalidPatternForFeatureName" xml:space="preserve">
+    <value>{0} formundan olmalıdır</value>
+  </data>
+  <data name="ValidateError_BitmapNotBgra32" xml:space="preserve">
+    <value>Sağlanan bit eşlem bitleri tam bir BGRA32 bit eşlemini temsil etmiyor.</value>
+  </data>
+  <data name="ValidateError_OutOfRange_Format" xml:space="preserve">
+    <value>{0} değeri [{1}, {2}] kabul edilebilir aralığının dışındadır.</value>
+  </data>
+  <data name="Error_ValueNotOfType" xml:space="preserve">
+    <value>{1}.{2}: beklenmeyen değer türü:{0}Beklenen tür: {3}{0}Gerçek tür: {4}</value>
+  </data>
+  <data name="Error_InvalidNameFilter" xml:space="preserve">
+    <value>Ad filtresi yalnızca '?' ve '*' joker karakterlerini içeren geçerli bir LogId olmalıdır.</value>
+  </data>
+  <data name="Error_InvalidExternalClientProcessPid" xml:space="preserve">
+    <value>{0} '{1}' hizmet isteğinde belirtilmedi veya geçerli bir PID içermiyordu.</value>
+  </data>
+  <data name="Error_ValueAtOffsetNotOfType" xml:space="preserve">
+    <value>{1}.{2}: Uzaklıkta beklenmeyen değer türü {5}:{0}Beklenen tür: {3}{0}Gerçek tür: {4}</value>
+  </data>
+  <data name="Error_InvalidMaxStreamCount" xml:space="preserve">
+    <value>Maksimum akış sayısı için sıfır geçersiz değerdir</value>
+  </data>
+  <data name="Error_InvalidMaxStorageSize" xml:space="preserve">
+    <value>Maksimum depolama boyutu için sıfır geçersiz değerdir</value>
+  </data>
+  <data name="Error_NoStreamStorageEvents" xml:space="preserve">
+    <value>Şunu uygulamayan bir depolama incelenemez: IStreamStorageEvents&lt;TKey&gt;</value>
+  </data>
+  <data name="Error_ThicknessConverter_InvalidTargetType" xml:space="preserve">
+    <value>{0} yalnızca {1} hedef türünü destekler</value>
+  </data>
+  <data name="Error_FailedToUpdateInternalState" xml:space="preserve">
+    <value>Geçerli bağlamdaki bileşen sürümleri güncelleştirilirken iç sürüm uyuşmazlığı algılandı.</value>
+  </data>
+  <data name="Error_CircularPropertyDependency" xml:space="preserve">
+    <value>Döngüsel bir özellik bağımlılığı var: {0}</value>
+  </data>
+  <data name="Error_FailedToAcquireMutex" xml:space="preserve">
+    <value>'{0}' çapraz işlem mutex'ine erişilemedi</value>
+  </data>
+</root>

@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_InsufficientSourceParameters" xml:space="preserve">
+    <value>{0}.{1}: El convertidor requiere {2} parámetros de origen. Parámetros de origen proporcionados: {3}.</value>
+  </data>
+  <data name="Error_InvalidExtensionNoLeadingPeriod" xml:space="preserve">
+    <value>El primer carácter de la extensión debe ser un punto ('.').</value>
+  </data>
+  <data name="Error_FlagNotRegistered" xml:space="preserve">
+    <value>Solo se pueden establecer marcas de funcionalidad que hayan sido registradas</value>
+  </data>
+  <data name="Error_InvalidMessageVersionHeader" xml:space="preserve">
+    <value>El encabezado de versión del mensaje no es válido en función del estado actual.</value>
+  </data>
+  <data name="ValidateError_StringEmpty" xml:space="preserve">
+    <value>La cadena está vacía.</value>
+  </data>
+  <data name="Error_InsufficientTypeParameters" xml:space="preserve">
+    <value>{0}.{1}: El convertidor requiere {2} parámetros de tipo. Parámetros de tipo proporcionados: {3}.</value>
+  </data>
+  <data name="Error_InvalidNullableTypeCode" xml:space="preserve">
+    <value>Código de tipo que acepta valores NULL no válido {0}.</value>
+  </data>
+  <data name="MisplacedSettingPathWildcard" xml:space="preserve">
+    <value>Los comodines están permitidos únicamente al final de los nombres de propiedades.</value>
+  </data>
+  <data name="Error_TargetNotExtendingType" xml:space="preserve">
+    <value>{1}.{2}: tipo de destino inesperado:{0}Tipo de destino esperado: {3}{0}Tipo de destino real: {4}</value>
+  </data>
+  <data name="JsonSerializationFailed" xml:space="preserve">
+    <value>Error al serializar el objeto como JSON.</value>
+  </data>
+  <data name="Error_NullSerializerFieldCodeNullable" xml:space="preserve">
+    <value>El valor de un campo SerializerFieldCode.Nullable no puede ser NULL; los valores NULL deben codificarse con SerializerFieldCode.NullableType o Nil en su lugar.</value>
+  </data>
+  <data name="Error_DeserializationCallbackFailure" xml:space="preserve">
+    <value>El delegado no leyó la cantidad de datos escrita</value>
+  </data>
+  <data name="Error_InvalidExtensionTooManyPeriods" xml:space="preserve">
+    <value>La extensión solo puede contener un punto ('.').</value>
+  </data>
+  <data name="ValidateError_InvalidValue_Format" xml:space="preserve">
+    <value>El valor del argumento {0} no es el valor esperado {1}.</value>
+  </data>
+  <data name="Error_NeedStreamCountOrStorageSize" xml:space="preserve">
+    <value>Como mínimo, maxStreamCount o maxStorageSize deben ser mayores que cero</value>
+  </data>
+  <data name="Error_InvalidRootPath" xml:space="preserve">
+    <value>Puede que esta no sea la ruta de acceso raíz.</value>
+  </data>
+  <data name="ValidateError_PathNotNormalized_Format" xml:space="preserve">
+    <value>La ruta de acceso \"{0}\" no está normalizada.</value>
+  </data>
+  <data name="Error_MaximumObjectIdentifierExceeded" xml:space="preserve">
+    <value>Se superó el identificador de objeto máximo.</value>
+  </data>
+  <data name="ValidateError_UnexpectedValue_Format" xml:space="preserve">
+    <value>Valor {0} no esperado para el argumento {1}.</value>
+  </data>
+  <data name="Error_NeedSuccessCode" xml:space="preserve">
+    <value>El parámetro {0} indica un error.</value>
+  </data>
+  <data name="ValidateError_InvalidOperation" xml:space="preserve">
+    <value>La operación no se puede ejecutar en este momento. El objeto {0} no es nulo.</value>
+  </data>
+  <data name="Error_DependsOnPropertyNotFound" xml:space="preserve">
+    <value>{0}.{1} depende de una propiedad que no se encontró: {2}</value>
+  </data>
+  <data name="ServiceUnavailable_Format" xml:space="preserve">
+    <value>El servicio {0} no está disponible.</value>
+  </data>
+  <data name="Error_ConverterFunctionNotDefined" xml:space="preserve">
+    <value>{0}: {1} no se ha definido para este convertidor.</value>
+  </data>
+  <data name="Error_MetadataMapShouldHaveSize" xml:space="preserve">
+    <value>La asignación de metadatos para {0} debe tener un tamaño {1}.</value>
+  </data>
+  <data name="Error_InvalidTimestampKind" xml:space="preserve">
+    <value>Tipo de marca de tiempo no válido: {0}</value>
+  </data>
+  <data name="Error_UnexpectedStreamVersion" xml:space="preserve">
+    <value>Versión de secuencia inesperada:  versión esperada={0}, versión real={1}</value>
+  </data>
+  <data name="Error_TargetAtOffsetNotExtendingType" xml:space="preserve">
+    <value>{1}.{2}: tipo de destino inesperado en el desplazamiento {5}:{0}Tipo de destino esperado: {3}{0}Tipo de destino real: {4}</value>
+  </data>
+  <data name="ValidateError_GuidEmpty" xml:space="preserve">
+    <value>El GUID está vacío.</value>
+  </data>
+  <data name="ValidateError_StringWhiteSpace" xml:space="preserve">
+    <value>La cadena no puede ser nula ni contener solamente caracteres en blanco.</value>
+  </data>
+  <data name="Error_ThicknessConverter_InvalidValues" xml:space="preserve">
+    <value>{0} requiere 1, 2 o 4 valores de entrada</value>
+  </data>
+  <data name="NormalizeError_InvalidPathChar" xml:space="preserve">
+    <value>La ruta de acceso contiene un carácter no válido.</value>
+  </data>
+  <data name="Error_InvalidStreamAccess" xml:space="preserve">
+    <value>Acceso de secuencia no válido: {0}</value>
+  </data>
+  <data name="Error_PrivateToSharedNameTranslatorReturnedNullOrEmpty" xml:space="preserve">
+    <value>El traductor de nombre privado a compartido devolvió NULL o una cadena vacía para la configuración compartida {0}.</value>
+  </data>
+  <data name="Error_InvalidPatternForFeatureName" xml:space="preserve">
+    <value>Debe tener el formato {0}</value>
+  </data>
+  <data name="ValidateError_BitmapNotBgra32" xml:space="preserve">
+    <value>El mapa de bits proporcionado no representa un mapa de bits completo BGRA32.</value>
+  </data>
+  <data name="ValidateError_OutOfRange_Format" xml:space="preserve">
+    <value>El valor {0} no se encuentra en el intervalo aceptable de [{1},{2}].</value>
+  </data>
+  <data name="Error_ValueNotOfType" xml:space="preserve">
+    <value>{1}.{2}: tipo de valor inesperado:{0}Tipo esperado: {3}{0}Tipo real: {4}</value>
+  </data>
+  <data name="Error_InvalidNameFilter" xml:space="preserve">
+    <value>El filtro de nombre debe ser un valor LogId válido que solo tenga "?" y "*" como caracteres comodín.</value>
+  </data>
+  <data name="Error_InvalidExternalClientProcessPid" xml:space="preserve">
+    <value>{0} "{1}" no se proporcionó en la solicitud de servicio o no contenía un PID válido.</value>
+  </data>
+  <data name="Error_ValueAtOffsetNotOfType" xml:space="preserve">
+    <value>{1}.{2}: tipo de valor inesperado en el desplazamiento {5}:{0}Tipo esperado: {3}{0}Tipo real: {4}</value>
+  </data>
+  <data name="Error_InvalidMaxStreamCount" xml:space="preserve">
+    <value>Cero es un valor no válido para el recuento máximo de secuencias</value>
+  </data>
+  <data name="Error_InvalidMaxStorageSize" xml:space="preserve">
+    <value>Cero es un valor no válido para el tamaño máximo de almacenamiento</value>
+  </data>
+  <data name="Error_NoStreamStorageEvents" xml:space="preserve">
+    <value>No se puede supervisar un almacenamiento que no implemente IStreamStorageEvents&lt;TKey&gt;</value>
+  </data>
+  <data name="Error_ThicknessConverter_InvalidTargetType" xml:space="preserve">
+    <value>{0} solo admite un tipo de destino de {1}</value>
+  </data>
+  <data name="Error_FailedToUpdateInternalState" xml:space="preserve">
+    <value>Se detectó una incompatibilidad de versión interna al actualizar las versiones de los componentes en el contexto actual.</value>
+  </data>
+  <data name="Error_CircularPropertyDependency" xml:space="preserve">
+    <value>Hay una dependencia de propiedades circular: {0}</value>
+  </data>
+  <data name="Error_FailedToAcquireMutex" xml:space="preserve">
+    <value>No se pudo acceder a la exclusión mutua de procesos cruzados "{0}"</value>
+  </data>
+</root>

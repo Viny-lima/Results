@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StartServiceRequestReceived" xml:space="preserve">
+    <value>Host Node odebrał żądanie uruchomienia usługi „{0}”</value>
+  </data>
+  <data name="LoadingServiceModule" xml:space="preserve">
+    <value>Ładowanie informacji o module usługi „{0}” dla usługi „{1}”</value>
+  </data>
+  <data name="ClientWatchStreamException" xml:space="preserve">
+    <value>Podczas odczytu ze strumienia wyrażenia kontrolnego klienta zgłoszono wyjątek. {0}: {1}</value>
+  </data>
+  <data name="HostExitedWithCode" xml:space="preserve">
+    <value>kod: „{0}” {1}.</value>
+  </data>
+  <data name="NodeHubControllerProcessCouldNotBeStarted" xml:space="preserve">
+    <value>Nie można uruchomić procesu: {0}</value>
+  </data>
+  <data name="VariableIsNotDefined" xml:space="preserve">
+    <value>Nie zdefiniowano zmiennej {0}</value>
+  </data>
+  <data name="ServiceLocated" xml:space="preserve">
+    <value>Znaleziono usługę „{0}” w lokalizacji „{1}” na podstawie żądania klienta {2}</value>
+  </data>
+  <data name="InvalidConfigContents" xml:space="preserve">
+    <value>Zawartość konfiguracji w lokalizacji „{0}“ jest nieprawidłowa. Zawartość: {1}</value>
+  </data>
+  <data name="VariableMustBeFunction" xml:space="preserve">
+    <value>Zmienna {0} musi być funkcją w module „{1}”. Rzeczywisty typ zmiennej: {2}.</value>
+  </data>
+  <data name="ExitingHubController" xml:space="preserve">
+    <value>Kończenie działania kontrolera centrum.</value>
+  </data>
+  <data name="AttemptToLocateServiceRetry" xml:space="preserve">
+    <value>Ponawianie próby nawiązania połączenia z usługą {0} — próba {1}</value>
+  </data>
+  <data name="ServiceHubConfigFileNameIsInvalid" xml:space="preserve">
+    <value>Nazwa pliku konfiguracji centrum usług „{0}” nie pasuje do oczekiwanej nazwy „{1}”</value>
+  </data>
+  <data name="ServiceStarted" xml:space="preserve">
+    <value>Pomyślnie uruchomiono usługę „{0}”. Identyfikator PID: „{1}”. Punkt końcowy usługi: „{2}”</value>
+  </data>
+  <data name="ServiceEntryPointConstructorNotFound" xml:space="preserve">
+    <value>Nie można odnaleźć funkcji konstruktora punktu końcowego usługi „{0}”. Upewnij się, że moduł usługi zawiera właściwość usługi entryPoint.constructorFunction.</value>
+  </data>
+  <data name="DisconnectingDiscoveryServiceFailed" xml:space="preserve">
+    <value>Wystąpił błąd podczas odłączania od usługi odnajdywania „{0}”: {1} {2}</value>
+  </data>
+  <data name="StartingHubHost" xml:space="preserve">
+    <value>Uruchamianie hosta centrum „{0}”. Potok wywołania zwrotnego hosta: „{1}”</value>
+  </data>
+  <data name="ServiceOverrideNotFound" xml:space="preserve">
+    <value>Nie znaleziono usługi do przesłonięcia usługi „{0}”.</value>
+  </data>
+  <data name="HostLaunched" xml:space="preserve">
+    <value>Uruchomiono hosta centrum „{0}”. Identyfikator PID: {1}</value>
+  </data>
+  <data name="UncaughtException" xml:space="preserve">
+    <value>Nieprzechwycony wyjątek. Kończenie procesu. Kod błędu {0}: {1}.</value>
+  </data>
+  <data name="FailedToDeleteDirectory" xml:space="preserve">
+    <value>Nie można usunąć pliku „{0}”. Typ błędu = {1}, komunikat o błędzie = {2}</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Nie można odnaleźć pliku: {0}</value>
+  </data>
+  <data name="FailedToGetFileStats" xml:space="preserve">
+    <value>Nie można pobrać statystyk dla pliku „{0}”. Typ błędu = {1}, komunikat o błędzie = {2}</value>
+  </data>
+  <data name="HostInfoInvalid" xml:space="preserve">
+    <value>Informacje o hoście w lokalizacji „{0}” nie zawierają elementów członkowskich hostExecutable:string i hostArgs:string[]</value>
+  </data>
+  <data name="NotifyHubControllerForServicesStartedFailed" xml:space="preserve">
+    <value>Wystąpił błąd podczas powiadamiania kontrolera centrum o uruchomieniu usług hosta: {0}</value>
+  </data>
+  <data name="CreateServiceInstanceError" xml:space="preserve">
+    <value>Wystąpił błąd podczas tworzenia wystąpienia modułu usługi „{0}”. Nastąpi zamknięcie strumienia przesyłanego do klienta: „{1}”.</value>
+  </data>
+  <data name="NotifyHubControllerForServicesEndedFailed" xml:space="preserve">
+    <value>Wystąpił błąd podczas powiadamiania kontrolera centrum o zakończeniu działania usług hosta: {0}</value>
+  </data>
+  <data name="SkipHostCooldown" xml:space="preserve">
+    <value>Element startHostCooldown zostanie pominięty, ponieważ zażądano debugowania przy uruchamianiu dla hosta {0}</value>
+  </data>
+  <data name="UnknownHost" xml:space="preserve">
+    <value>Nieznany host „{0}”</value>
+  </data>
+  <data name="CloseHubStreamFailed" xml:space="preserve">
+    <value>Wystąpił błąd podczas zamykania strumienia centrum: {0}</value>
+  </data>
+  <data name="DisposeServiceError" xml:space="preserve">
+    <value>Wystąpił błąd podczas likwidowania wystąpienia {0} usługi „{1}”: {2}</value>
+  </data>
+  <data name="Inactivity" xml:space="preserve">
+    <value>brak aktywności</value>
+  </data>
+  <data name="HostInfoNotFound" xml:space="preserve">
+    <value>Nie można odnaleźć obiektu HostInfo o identyfikatorze „{0}” po połączeniu hosta</value>
+  </data>
+  <data name="ErrorShuttingDownHosts" xml:space="preserve">
+    <value>Wystąpił błąd podczas zamykania procesów hosta. Przyczyna: {0}.</value>
+  </data>
+  <data name="ErrorLocationServiceEnvVarNotSet" xml:space="preserve">
+    <value>Zmienna środowiskowa „{0}“ powinna być ustawiona.</value>
+  </data>
+  <data name="StoppedServer" xml:space="preserve">
+    <value>Zatrzymano serwer „{0}” pod adresem „{1}”.</value>
+  </data>
+  <data name="ServiceHubConfigJsonNotFound" xml:space="preserve">
+    <value>Nie można odnaleźć pliku {0} w katalogu {1} i jego katalogach nadrzędnych</value>
+  </data>
+  <data name="StartingServiceFailed" xml:space="preserve">
+    <value>Wystąpił błąd podczas uruchamiania usługi „{0}” na podstawie żądania klienta {1}: {2}</value>
+  </data>
+  <data name="UrlHasNoPipeName" xml:space="preserve">
+    <value>Argument url nie zawiera nazwy potoku po ciągu „{0}”</value>
+  </data>
+  <data name="ServiceOverrideSearching" xml:space="preserve">
+    <value>Usługa „{0}” została oznaczona jako usługa z włączoną opcją ServiceOverride. Wyszukiwanie usługi przesłaniania.</value>
+  </data>
+  <data name="ServiceEntryPointFileNameNotFound" xml:space="preserve">
+    <value>Nie można odnaleźć nazwy pliku punktu końcowego usługi „{0}”. Upewnij się, że moduł usługi zawiera właściwość usługi entryPoint.scriptPath.</value>
+  </data>
+  <data name="ServiceRemovedFromCache" xml:space="preserve">
+    <value>Usługa „{0}” została usunięta z pamięci podręcznej zlokalizowanych usług.</value>
+  </data>
+  <data name="CannotFindServiceModuleFile" xml:space="preserve">
+    <value>Nie można odnaleźć pliku z informacjami o module usługi „{0}” w lokalizacji „{1}”</value>
+  </data>
+  <data name="ConnectedToService" xml:space="preserve">
+    <value>Klient nawiązał połączenie z usługą {0}</value>
+  </data>
+  <data name="ClientIsNotChildOfController" xml:space="preserve">
+    <value>Klient łączący się z potokiem „RemoteServiceBroker“ nie jest elementem podrzędnym procesu kontrolera.</value>
+  </data>
+  <data name="FirstTimeLoadingService" xml:space="preserve">
+    <value>Usługa „{0}” nie była wcześniej ładowana. Zostanie ona załadowana teraz.</value>
+  </data>
+  <data name="StoppingHost" xml:space="preserve">
+    <value>Zatrzymywanie hosta „{0}” o identyfikatorze PID: {1}. Przyczyna: {2}</value>
+  </data>
+  <data name="ControllerShuttingDown" xml:space="preserve">
+    <value>Proces „{0}” jest zamykany.</value>
+  </data>
+  <data name="NamedPipeClientCouldNotBeValidated" xml:space="preserve">
+    <value>Nie można zweryfikować nazwanego klienta potoku.</value>
+  </data>
+  <data name="HostShuttingDown" xml:space="preserve">
+    <value>Trwa zamykanie hosta {0} usługi {1}. Uruchomimy nowy host</value>
+  </data>
+  <data name="StartingService" xml:space="preserve">
+    <value>Uruchamianie usługi „{0}” na hoście Node</value>
+  </data>
+  <data name="MessageAt" xml:space="preserve">
+    <value>w</value>
+  </data>
+  <data name="NoValueForProperty" xml:space="preserve">
+    <value>Plik {0} w lokalizacji {1} nie zawiera wartości właściwości {2}</value>
+  </data>
+  <data name="ExitingHubControllerWithReason" xml:space="preserve">
+    <value>Kończenie działania kontrolera centrum. Przyczyna: {0}.</value>
+  </data>
+  <data name="FailedGetSaltString" xml:space="preserve">
+    <value>Nie można pobrać ciągu inicjującego użytkownika. {0}</value>
+  </data>
+  <data name="ServiceHubConfigFileDoesNotExist" xml:space="preserve">
+    <value>Plik konfiguracji centrum usług „{0}” nie istnieje</value>
+  </data>
+  <data name="VariablesAreNotDefined" xml:space="preserve">
+    <value>Nie zdefiniowano zmiennych {0}</value>
+  </data>
+  <data name="ServiceInfoInvalid" xml:space="preserve">
+    <value>Informacje o module usługi dla usługi „{0}” zawierają zastrzeżoną właściwość „{1}”</value>
+  </data>
+  <data name="HostInfoContainsReservedProperty" xml:space="preserve">
+    <value>Informacje o hoście w lokalizacji „{0}” zawierają zastrzeżoną właściwość „filePath”</value>
+  </data>
+  <data name="HostExitedWithSignal" xml:space="preserve">
+    <value>sygnał: „{0}”.</value>
+  </data>
+  <data name="ControllerConnectionWindowsShutdownExceptionMessage" xml:space="preserve">
+    <value>Plik Microsoft.ServiceHub.Controller.exe zakończył działanie w nieprawidłowy sposób, ponieważ trwa zamykanie systemu Windows.</value>
+  </data>
+  <data name="CannotStopLocationService" xml:space="preserve">
+    <value>Nie można zatrzymać usługi lokalizacji na serwerze proxy</value>
+  </data>
+  <data name="ServiceHubConfigFilePathIsNotAbsolute" xml:space="preserve">
+    <value>Ścieżka pliku konfiguracji centrum usług „{0}” nie jest ścieżką bezwzględną</value>
+  </data>
+  <data name="LoadingHostInfo" xml:space="preserve">
+    <value>Ładowanie informacji o hoście „{0}” z lokalizacji „{1}”</value>
+  </data>
+  <data name="HostTypeNotFound" xml:space="preserve">
+    <value>Nie można odnaleźć typu hosta „{0}” w lokalizacji „{1}”</value>
+  </data>
+  <data name="IgnoringDuplicateExit" xml:space="preserve">
+    <value>Ignorowanie zduplikowanego polecenia zakończenia.</value>
+  </data>
+  <data name="ControllerConnectionTimeoutExceptionMessage" xml:space="preserve">
+    <value>Program Microsoft.ServiceHub.Controller.exe zakończył działanie normalnie przed zaakceptowaniem połączenia. Może być konieczne zwiększenie limitu czasu ochładzania kontrolera.</value>
+  </data>
+  <data name="CannotFindServiceModuleFileWithReason" xml:space="preserve">
+    <value>Nie można odnaleźć pliku z informacjami o module usługi „{0}” w lokalizacji „{1}”. Użycie usług odnajdywania nie powiodło się: {2}</value>
+  </data>
+  <data name="FailedToValidateController" xml:space="preserve">
+    <value>Nie można zweryfikować procesu kontrolera, z który jest połączony.</value>
+  </data>
+  <data name="LoadingServiceFromLocation" xml:space="preserve">
+    <value>Ładowanie usługi „{0}” z lokalizacji „{1}”.</value>
+  </data>
+  <data name="FailedToValidateClient" xml:space="preserve">
+    <value>Nie można zweryfikować klienta łączącego się z potokiem „{0}“.</value>
+  </data>
+  <data name="ContextEnvironmentVariableNotFoundInProvidedEnvironment" xml:space="preserve">
+    <value>Nie znaleziono elementu ContextEnvironmentVariable „{0}” na podanej mapie środowiska.</value>
+  </data>
+  <data name="CannotResolveHost" xml:space="preserve">
+    <value>Nie można rozpoznać i załadować informacji o hoście „{0}” z lokalizacji „{1}”: {2}</value>
+  </data>
+  <data name="ServiceOverrideNotFoundWithError" xml:space="preserve">
+    <value>Nie znaleziono usługi do przesłonięcia usługi „{0}”: {1}</value>
+  </data>
+  <data name="ControllerConnectionInvalidArgumentExceptionMessage" xml:space="preserve">
+    <value>Plik Microsoft.ServiceHub.Controller.exe został uruchomiony z nieprawidłowym wierszem polecenia.</value>
+  </data>
+  <data name="LoadServiceModuleError" xml:space="preserve">
+    <value>Wystąpił błąd podczas ładowania modułu usługi „{0}”: {1}</value>
+  </data>
+  <data name="hostTypeNotFoundInLocation" xml:space="preserve">
+    <value>Nie można odnaleźć typu hosta „{0}” w lokalizacji „{1}” lub „{2}”</value>
+  </data>
+  <data name="ForceControllerShutDown" xml:space="preserve">
+    <value>Wymuszono zamknięcie kontrolera centrum.</value>
+  </data>
+  <data name="LocatingService" xml:space="preserve">
+    <value>Znajdowanie usługi „{0}” na podstawie żądania klienta {1}</value>
+  </data>
+  <data name="ServiceHubConfigFileNameIsIncorrect" xml:space="preserve">
+    <value>Nazwa pliku konfiguracji centrum usług w lokalizacji „{0}” nie równa się „servicehub.config.json”</value>
+  </data>
+  <data name="ObjectDisposed" xml:space="preserve">
+    <value>Usunięto obiekt</value>
+  </data>
+  <data name="LengthCannotBeNegative" xml:space="preserve">
+    <value>Długość nie może być ujemna</value>
+  </data>
+  <data name="CouldNotGetProcessId" xml:space="preserve">
+    <value>Nie można pobrać identyfikatora procesu klienta łączącego się z tym potokiem.</value>
+  </data>
+  <data name="MultipleFileFound" xml:space="preserve">
+    <value>Oczekiwano tylko jednego pliku. Znaleziono więcej plików w lokalizacji „{0}”: {1}</value>
+  </data>
+  <data name="ServiceModuleInvalidProperty" xml:space="preserve">
+    <value>Informacje dotyczące modułu usługi „{0}” zawierają nieprawidłową wartość „{1}” dla właściwości „{2}”.</value>
+  </data>
+  <data name="ServiceStartedAfterHostShutDown" xml:space="preserve">
+    <value>Usługa „{0}” została uruchomiona po zainicjowaniu zamykania hosta. Zostanie ona zamknięta.</value>
+  </data>
+  <data name="HostRemovedFromCache" xml:space="preserve">
+    <value>Host „{0}” został usunięty z pamięci podręcznej hostów.</value>
+  </data>
+  <data name="ControllerNotResponding" xml:space="preserve">
+    <value>Kontroler nie odpowiada na żądania przychodzące.</value>
+  </data>
+  <data name="LogConfig" xml:space="preserve">
+    <value>Log configuration: {0}</value>
+  </data>
+  <data name="MoreThanOneHostPending" xml:space="preserve">
+    <value>Więcej niż jeden host oczekuje, gdy jeden z hostów nie może podać identyfikatora hosta</value>
+  </data>
+  <data name="HostGroupNotSupported" xml:space="preserve">
+    <value>Usługa „{0}” nie obsługuje grup hostów i nie można jej uruchomić w grupie hostów „{1}”. Ustaw wartość true dla właściwości „{2}” w pliku konfiguracji usługi, aby włączyć grupy hostów dla usługi.</value>
+  </data>
+  <data name="CouldNotKillHost" xml:space="preserve">
+    <value>Nie można skasować hosta {0}: {1}</value>
+  </data>
+  <data name="InvalidCommandLine" xml:space="preserve">
+    <value>TODO: napraw ten ciąg — nieprawidłowy wiersz polecenia. Użycie: „węzeł {0} [&lt;nazwa kanału kontrolera&gt;]”</value>
+  </data>
+  <data name="CachedHostIsShutdown" xml:space="preserve">
+    <value>Buforowany host „{0}” został zamknięty. Ponowne uruchamianie hosta.</value>
+  </data>
+  <data name="FailedToConnectToController" xml:space="preserve">
+    <value>Nie można nawiązać połączenia z usługą lokalizacji kontrolera w lokalizacji „{0}” po próbach trwających {1} ms</value>
+  </data>
+  <data name="ErrorDecoding" xml:space="preserve">
+    <value>Wystąpił błąd podczas dekodowania ciągu: {0}</value>
+  </data>
+  <data name="StartingHostError" xml:space="preserve">
+    <value>Wystąpił błąd podczas uruchamiania hosta centrum {0}„{1}”: „{2}”.</value>
+  </data>
+  <data name="FailedToDeleteFile" xml:space="preserve">
+    <value>Nie można usunąć pliku „{0}”. Typ błędu = {1}, komunikat o błędzie = {2}</value>
+  </data>
+  <data name="LaunchingHostWithCmd" xml:space="preserve">
+    <value>Uruchamianie hosta centrum „{0}” za pomocą wiersza polecenia „{1}”</value>
+  </data>
+  <data name="FailedToEnumerateFilesInDir" xml:space="preserve">
+    <value>Nie można wyliczyć plików w katalogu „{0}”. Typ błędu = {1}, komunikat o błędzie = {2}</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Ładowanie elementu „{0}”</value>
+  </data>
+  <data name="ServiceInfoInvalidSpaceInHostId" xml:space="preserve">
+    <value>Informacje o module usługi dla usługi „{0}” zawierają spację w identyfikatorze hosta „{1}”</value>
+  </data>
+  <data name="GetHostIdFailed" xml:space="preserve">
+    <value>Nie można pobrać identyfikatora nowo utworzonego hosta: {0}</value>
+  </data>
+  <data name="NoPipeName" xml:space="preserve">
+    <value>Brak nazwy potoku po ciągu „{0}”</value>
+  </data>
+  <data name="FailedToEnumerateDirs" xml:space="preserve">
+    <value>Nie można wyliczyć katalogów w katalogu „{0}”. Typ błędu = {1}, komunikat o błędzie = {2}</value>
+  </data>
+  <data name="ServiceNameNotSpecified" xml:space="preserve">
+    <value>Nie określono nazwy usługi</value>
+  </data>
+  <data name="AllExternalClientsDisconnected" xml:space="preserve">
+    <value>Odłączono wszystkich klientów zewnętrznych</value>
+  </data>
+  <data name="StartServiceRequestRejected" xml:space="preserve">
+    <value>Odrzucono żądanie startService() dla usługi „{0}”, ponieważ zostało ono odebrane po zamknięciu</value>
+  </data>
+  <data name="ErrorParsingJson" xml:space="preserve">
+    <value>Wystąpił błąd podczas analizowania kodu JSON w pliku {0}: {1}</value>
+  </data>
+  <data name="HostInfoNotDefined" xml:space="preserve">
+    <value>Nie zdefiniowano informacji o hoście w lokalizacji „{0}”</value>
+  </data>
+  <data name="LocatingServcieError" xml:space="preserve">
+    <value>Wystąpił błąd usługi odnajdywania „{0}” podczas odnajdywania usługi „{1}”: {2} ({3})</value>
+  </data>
+  <data name="UncaughtExceptionWithStack" xml:space="preserve">
+    <value>Nieprzechwycony wyjątek. Kończenie procesu. Kod błędu {0}: {1} ({2}).</value>
+  </data>
+  <data name="ServiceVersionNotSupported" xml:space="preserve">
+    <value>Żądana usługa w wersji {0} nie jest obsługiwana.</value>
+  </data>
+  <data name="HostExited" xml:space="preserve">
+    <value>Zakończono działanie hosta centrum „{0}” o identyfikatorze PID {1}.</value>
+  </data>
+  <data name="StartingServer" xml:space="preserve">
+    <value>Uruchamianie serwera „{0}” pod adresem „{1}” (w lokalizacji „{2}”).</value>
+  </data>
+  <data name="UrlShouldStartWith" xml:space="preserve">
+    <value>Argument url nie może rozpoczynać się od ciągu „{0}”</value>
+  </data>
+  <data name="ExitCommandReceived" xml:space="preserve">
+    <value>Host centrum odebrał polecenie zakończenia.</value>
+  </data>
+  <data name="NoFolderSpecified" xml:space="preserve">
+    <value>Nie określono folderu usług w konfiguracji Centrum usług</value>
+  </data>
+  <data name="CannotResolveServiceModuleInfo" xml:space="preserve">
+    <value>Nie można rozpoznać i załadować informacji o module usługi „{0}” z lokalizacji „{1}”: {2}</value>
+  </data>
+</root>

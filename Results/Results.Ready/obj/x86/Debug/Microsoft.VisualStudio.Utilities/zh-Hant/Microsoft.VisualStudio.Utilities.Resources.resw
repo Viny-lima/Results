@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_InsufficientSourceParameters" xml:space="preserve">
+    <value>{0}，{1}: 需要為轉換器提供 {2} 來源參數、{3} 來源參數。</value>
+  </data>
+  <data name="Error_InvalidExtensionNoLeadingPeriod" xml:space="preserve">
+    <value>副檔名的第一個字元必須是句點 ('.')。</value>
+  </data>
+  <data name="Error_FlagNotRegistered" xml:space="preserve">
+    <value>只能設定已註冊的功能旗標</value>
+  </data>
+  <data name="Error_InvalidMessageVersionHeader" xml:space="preserve">
+    <value>根據目前狀態，郵件版本標頭無效。</value>
+  </data>
+  <data name="ValidateError_StringEmpty" xml:space="preserve">
+    <value>字串是空的。</value>
+  </data>
+  <data name="Error_InsufficientTypeParameters" xml:space="preserve">
+    <value>{0}，{1}: 需要為轉換器提供 {2} 型別參數、{3} 型別參數。</value>
+  </data>
+  <data name="Error_InvalidNullableTypeCode" xml:space="preserve">
+    <value>無效的 Null 類型代碼 {0}。</value>
+  </data>
+  <data name="MisplacedSettingPathWildcard" xml:space="preserve">
+    <value>只有屬性名稱的結尾才可使用萬用字元。</value>
+  </data>
+  <data name="Error_TargetNotExtendingType" xml:space="preserve">
+    <value>{1}，{2}: 有未預期的目標類型:{0}預期的目標類型: {3}{0} 實際目標類型: {4}</value>
+  </data>
+  <data name="JsonSerializationFailed" xml:space="preserve">
+    <value>無法將物件序列化為 JSON。</value>
+  </data>
+  <data name="Error_NullSerializerFieldCodeNullable" xml:space="preserve">
+    <value>SerializerFieldCode.Nullable 欄位值不可為 Null。Null 值應改以 SerializerFieldCode.NullableType 或 Nil 編碼。</value>
+  </data>
+  <data name="Error_DeserializationCallbackFailure" xml:space="preserve">
+    <value>該委派並未讀到寫入的資料總量</value>
+  </data>
+  <data name="Error_InvalidExtensionTooManyPeriods" xml:space="preserve">
+    <value>副檔名只能包含單一句點 ('.')。</value>
+  </data>
+  <data name="ValidateError_InvalidValue_Format" xml:space="preserve">
+    <value>引數值 {0} 不是預期的值 {1}。</value>
+  </data>
+  <data name="Error_NeedStreamCountOrStorageSize" xml:space="preserve">
+    <value>maxStreamCount 或 maxStorageSize 至少必須有一個大於零</value>
+  </data>
+  <data name="Error_InvalidRootPath" xml:space="preserve">
+    <value>這不能是根路徑。</value>
+  </data>
+  <data name="ValidateError_PathNotNormalized_Format" xml:space="preserve">
+    <value>路徑 \"{0}\" 未標準化。</value>
+  </data>
+  <data name="Error_MaximumObjectIdentifierExceeded" xml:space="preserve">
+    <value>已超過物件識別碼上限。</value>
+  </data>
+  <data name="ValidateError_UnexpectedValue_Format" xml:space="preserve">
+    <value>值 {0} 不是引數 {1} 預期的值。</value>
+  </data>
+  <data name="Error_NeedSuccessCode" xml:space="preserve">
+    <value>參數 {0} 代表失敗。</value>
+  </data>
+  <data name="ValidateError_InvalidOperation" xml:space="preserve">
+    <value>目前無法執行這項作業。物件 {0} 不是 null。</value>
+  </data>
+  <data name="Error_DependsOnPropertyNotFound" xml:space="preserve">
+    <value>找不到 {0}.{1} 相依的屬性: {2}</value>
+  </data>
+  <data name="ServiceUnavailable_Format" xml:space="preserve">
+    <value>{0} 服務無法使用。</value>
+  </data>
+  <data name="Error_ConverterFunctionNotDefined" xml:space="preserve">
+    <value>{0}: 未對此轉換器定義 {1}。</value>
+  </data>
+  <data name="Error_MetadataMapShouldHaveSize" xml:space="preserve">
+    <value>{0} 的中繼資料對應大小應為 {1}。</value>
+  </data>
+  <data name="Error_InvalidTimestampKind" xml:space="preserve">
+    <value>無效的時間戳記類型: {0}</value>
+  </data>
+  <data name="Error_UnexpectedStreamVersion" xml:space="preserve">
+    <value>未預期的資料流版本: 版本必須是 {0}，但實際版本為 {1}</value>
+  </data>
+  <data name="Error_TargetAtOffsetNotExtendingType" xml:space="preserve">
+    <value>{1}，{2}: 位移 {5} 有未預期的目標類型:{0}預期的目標類型: {3}{0} 實際目標類型: {4}</value>
+  </data>
+  <data name="ValidateError_GuidEmpty" xml:space="preserve">
+    <value>Guid 是空的。</value>
+  </data>
+  <data name="ValidateError_StringWhiteSpace" xml:space="preserve">
+    <value>字串不得為 null 或只包含空白字元。</value>
+  </data>
+  <data name="Error_ThicknessConverter_InvalidValues" xml:space="preserve">
+    <value>{0} 需要 1、2 或 4 個輸入值</value>
+  </data>
+  <data name="NormalizeError_InvalidPathChar" xml:space="preserve">
+    <value>路徑包含無效的字元。</value>
+  </data>
+  <data name="Error_InvalidStreamAccess" xml:space="preserve">
+    <value>無效的資料流存取: {0}</value>
+  </data>
+  <data name="Error_PrivateToSharedNameTranslatorReturnedNullOrEmpty" xml:space="preserve">
+    <value>針對共用設定 {0}，私用至共用名稱轉譯器傳回了 null 或空的字串。</value>
+  </data>
+  <data name="Error_InvalidPatternForFeatureName" xml:space="preserve">
+    <value>必須是格式 {0}</value>
+  </data>
+  <data name="ValidateError_BitmapNotBgra32" xml:space="preserve">
+    <value>提供的點陣圖不代表完整的 BGRA32 點陣圖。</value>
+  </data>
+  <data name="ValidateError_OutOfRange_Format" xml:space="preserve">
+    <value>值 {0} 在可接受的 [{1},{2}] 範圍之外。</value>
+  </data>
+  <data name="Error_ValueNotOfType" xml:space="preserve">
+    <value>{1}，{2}: 有未預期的實值型別:{0}預期的類型: {3}{0} 實際類型: {4}</value>
+  </data>
+  <data name="Error_InvalidNameFilter" xml:space="preserve">
+    <value>名稱篩選必須是有效的 LogId，而且只能使用 '?' 和 '*' 作為萬用字元。</value>
+  </data>
+  <data name="Error_InvalidExternalClientProcessPid" xml:space="preserve">
+    <value>服務要求中未提供 {0} '{1}'，或者其未包含有效的 PID。 </value>
+  </data>
+  <data name="Error_ValueAtOffsetNotOfType" xml:space="preserve">
+    <value>{1}，{2}: 位移 {5} 有未預期的實值型別:{0}預期的類型: {3}{0} 實際類型: {4}</value>
+  </data>
+  <data name="Error_InvalidMaxStreamCount" xml:space="preserve">
+    <value>零為資料流計數上限的無效值</value>
+  </data>
+  <data name="Error_InvalidMaxStorageSize" xml:space="preserve">
+    <value>零為儲存區大小上限的無效值</value>
+  </data>
+  <data name="Error_NoStreamStorageEvents" xml:space="preserve">
+    <value>無法監視未實作 IStreamStorageEvents&lt;TKey&gt; 的儲存區</value>
+  </data>
+  <data name="Error_ThicknessConverter_InvalidTargetType" xml:space="preserve">
+    <value>{0} 僅支援 {1} 的目標類型</value>
+  </data>
+  <data name="Error_FailedToUpdateInternalState" xml:space="preserve">
+    <value>在目前內容中更新元件版本時偵測到內部版本不相符。</value>
+  </data>
+  <data name="Error_CircularPropertyDependency" xml:space="preserve">
+    <value>存在循環屬性相依性: {0}</value>
+  </data>
+  <data name="Error_FailedToAcquireMutex" xml:space="preserve">
+    <value>無法存取交叉處理的 Mutex '{0}'</value>
+  </data>
+</root>

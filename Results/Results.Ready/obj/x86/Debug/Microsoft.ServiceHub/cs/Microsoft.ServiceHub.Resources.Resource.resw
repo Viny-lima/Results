@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StartServiceRequestReceived" xml:space="preserve">
+    <value>Hostitel uzlu přijal žádost o spuštění služby {0}.</value>
+  </data>
+  <data name="LoadingServiceModule" xml:space="preserve">
+    <value>Načítání informací o modulu služby z {0} pro službu {1}</value>
+  </data>
+  <data name="ClientWatchStreamException" xml:space="preserve">
+    <value>Čtení ze streamu Client Watch vyvolalo výjimku. {0}: {1}</value>
+  </data>
+  <data name="HostExitedWithCode" xml:space="preserve">
+    <value>kód: {0} {1}.</value>
+  </data>
+  <data name="NodeHubControllerProcessCouldNotBeStarted" xml:space="preserve">
+    <value>Nejde spustit proces: {0}</value>
+  </data>
+  <data name="VariableIsNotDefined" xml:space="preserve">
+    <value>Proměnná {0} není definovaná.</value>
+  </data>
+  <data name="ServiceLocated" xml:space="preserve">
+    <value>Našla se služba {0} v {1}, kterou požaduje {2}.</value>
+  </data>
+  <data name="InvalidConfigContents" xml:space="preserve">
+    <value>Obsah konfigurace v {0} je neplatný. Obsah: {1}</value>
+  </data>
+  <data name="VariableMustBeFunction" xml:space="preserve">
+    <value>Proměnná {0} musí být funkce v modulu {1}. Ve skutečnosti je to {2}.</value>
+  </data>
+  <data name="ExitingHubController" xml:space="preserve">
+    <value>Ukončuje se kontroler centra.</value>
+  </data>
+  <data name="AttemptToLocateServiceRetry" xml:space="preserve">
+    <value>Opakování pokusu o připojení ke službě {0} – {1}. pokus</value>
+  </data>
+  <data name="ServiceHubConfigFileNameIsInvalid" xml:space="preserve">
+    <value>Název konfiguračního souboru centra služeb {0} neodpovídá očekávanému názvu {1}.</value>
+  </data>
+  <data name="ServiceStarted" xml:space="preserve">
+    <value>Služba {0} se úspěšně spustila. PID: {1}. Koncový bod služby: {2}</value>
+  </data>
+  <data name="ServiceEntryPointConstructorNotFound" xml:space="preserve">
+    <value>Nepodařilo se najít funkci konstruktoru vstupního bodu pro {0}. Ověřte, jestli modul služeb, ve kterém vznikla, obsahuje vlastnost entryPoint.constructorFunction služby.</value>
+  </data>
+  <data name="DisconnectingDiscoveryServiceFailed" xml:space="preserve">
+    <value>Chyba při odpojování od služby zjišťování {0}: {1} {2}</value>
+  </data>
+  <data name="StartingHubHost" xml:space="preserve">
+    <value>Spouštění hostitele centra {0}. Kanál zpětného volání hostitele: {1}</value>
+  </data>
+  <data name="ServiceOverrideNotFound" xml:space="preserve">
+    <value>Nebyla nalezena služba, kterou se má přepsat služba {0}.</value>
+  </data>
+  <data name="HostLaunched" xml:space="preserve">
+    <value>Spustil se hostitel centra {0}. PID: {1}</value>
+  </data>
+  <data name="UncaughtException" xml:space="preserve">
+    <value>Nezachycená výjimka. Ukončuje se proces s kódem chyby {0}: {1}.</value>
+  </data>
+  <data name="FailedToDeleteDirectory" xml:space="preserve">
+    <value>Nepovedlo se odstranit soubor {0}. Typ chyby = {1}, chybová zpráva = {2}</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Nejde najít soubor: {0}</value>
+  </data>
+  <data name="FailedToGetFileStats" xml:space="preserve">
+    <value>Nepovedlo se získat statistiku pro soubor {0}. Typ chyby = {1}, chybová zpráva = {2}</value>
+  </data>
+  <data name="HostInfoInvalid" xml:space="preserve">
+    <value>Informace o hostiteli v {0} nemají členy hostExecutable:string a hostArgs:string[].</value>
+  </data>
+  <data name="NotifyHubControllerForServicesStartedFailed" xml:space="preserve">
+    <value>Chyba upozorňování kontroleru centra, že se hostované služby spustily: {0}</value>
+  </data>
+  <data name="CreateServiceInstanceError" xml:space="preserve">
+    <value>Chyba při vytváření instance modulu služby pro {0}, zavírá se stream ke klientovi: {1}</value>
+  </data>
+  <data name="NotifyHubControllerForServicesEndedFailed" xml:space="preserve">
+    <value>Chyba upozorňování kontroleru centra, že se hostované služby ukončily: {0}</value>
+  </data>
+  <data name="SkipHostCooldown" xml:space="preserve">
+    <value>StartHostCooldown se přeskakuje, protože pro hostitele {0} se požádalo o ladění při spuštění.</value>
+  </data>
+  <data name="UnknownHost" xml:space="preserve">
+    <value>Neznámý hostitel {0}</value>
+  </data>
+  <data name="CloseHubStreamFailed" xml:space="preserve">
+    <value>Chyba při zavírání streamu centra: {0}</value>
+  </data>
+  <data name="DisposeServiceError" xml:space="preserve">
+    <value>Chyba při rušení instance {0} služby {1}: {2}</value>
+  </data>
+  <data name="Inactivity" xml:space="preserve">
+    <value>nečinnost</value>
+  </data>
+  <data name="HostInfoNotFound" xml:space="preserve">
+    <value>Nepodařilo se najít objekt HostInfo pro {0}, když se připojili někteří hostitelé.</value>
+  </data>
+  <data name="ErrorShuttingDownHosts" xml:space="preserve">
+    <value>Chyba při vypínání hostitelských procesů {0}.</value>
+  </data>
+  <data name="ErrorLocationServiceEnvVarNotSet" xml:space="preserve">
+    <value>Měla by se nastavit proměnná prostředí {0}.</value>
+  </data>
+  <data name="StoppedServer" xml:space="preserve">
+    <value>Zastavil se server {0} na adrese {1}.</value>
+  </data>
+  <data name="ServiceHubConfigJsonNotFound" xml:space="preserve">
+    <value>Nejde najít {0} v {1} a některém z jeho nadřazených adresářů.</value>
+  </data>
+  <data name="StartingServiceFailed" xml:space="preserve">
+    <value>Chyba při spouštění služby {0}, kterou požadoval {1}: {2}</value>
+  </data>
+  <data name="UrlHasNoPipeName" xml:space="preserve">
+    <value>Argument url nemá název kanálu za {0}</value>
+  </data>
+  <data name="ServiceOverrideSearching" xml:space="preserve">
+    <value>U služby {0} je označeno povolení ServiceOverride. Hledá se služba pro přepsání.</value>
+  </data>
+  <data name="ServiceEntryPointFileNameNotFound" xml:space="preserve">
+    <value>Nepodařilo se najít název souboru vstupního bodu pro {0}. Ověřte, jestli modul služeb, ve kterém vznikla, obsahuje vlastnost entryPoint.scriptPath služby.</value>
+  </data>
+  <data name="ServiceRemovedFromCache" xml:space="preserve">
+    <value>Služba {0} byla odebrána z mezipaměti umístěných služeb.</value>
+  </data>
+  <data name="CannotFindServiceModuleFile" xml:space="preserve">
+    <value>Nejde najít soubor s informacemi o modulu služby {0} v {1}.</value>
+  </data>
+  <data name="ConnectedToService" xml:space="preserve">
+    <value>Klient připojený k {0}</value>
+  </data>
+  <data name="ClientIsNotChildOfController" xml:space="preserve">
+    <value>Klient připojující se k kanálu RemoteServiceBroker není podřízeným objektem procesu Controller.</value>
+  </data>
+  <data name="FirstTimeLoadingService" xml:space="preserve">
+    <value>Služba {0} předtím nebyla načtená. Načítá se teď.</value>
+  </data>
+  <data name="StoppingHost" xml:space="preserve">
+    <value>Zastavování hostitele {0}, PID: {1}, důvod: {2}</value>
+  </data>
+  <data name="ControllerShuttingDown" xml:space="preserve">
+    <value>Proces {0} se ukončuje.</value>
+  </data>
+  <data name="NamedPipeClientCouldNotBeValidated" xml:space="preserve">
+    <value>Klienta pojmenovaného kanálu není možné ověřit.</value>
+  </data>
+  <data name="HostShuttingDown" xml:space="preserve">
+    <value>Hostitel {0} pro službu {1} se vypíná. Spustíme nového hostitele.</value>
+  </data>
+  <data name="StartingService" xml:space="preserve">
+    <value>Služba spouštění hostitele uzlu {0}</value>
+  </data>
+  <data name="MessageAt" xml:space="preserve">
+    <value>v</value>
+  </data>
+  <data name="NoValueForProperty" xml:space="preserve">
+    <value>{0} v {1} nemá hodnotu vlastnosti {2}.</value>
+  </data>
+  <data name="ExitingHubControllerWithReason" xml:space="preserve">
+    <value>Ukončuje se kontroler centra. Důvod: {0}</value>
+  </data>
+  <data name="FailedGetSaltString" xml:space="preserve">
+    <value>Nepodařilo se získat řetězec salt specifický pro uživatele. {0}</value>
+  </data>
+  <data name="ServiceHubConfigFileDoesNotExist" xml:space="preserve">
+    <value>Konfigurační soubor ServiceHub {0} neexistuje.</value>
+  </data>
+  <data name="VariablesAreNotDefined" xml:space="preserve">
+    <value>Proměnné {0} nejsou definované.</value>
+  </data>
+  <data name="ServiceInfoInvalid" xml:space="preserve">
+    <value>Informace o modulu služeb pro službu {0} má vyhrazenou vlastnost {1}.</value>
+  </data>
+  <data name="HostInfoContainsReservedProperty" xml:space="preserve">
+    <value>Informace o hostiteli v {0} obsahují vyhrazenou vlastnost filePath.</value>
+  </data>
+  <data name="HostExitedWithSignal" xml:space="preserve">
+    <value>signál: {0}</value>
+  </data>
+  <data name="ControllerConnectionWindowsShutdownExceptionMessage" xml:space="preserve">
+    <value>Microsoft.ServiceHub.Controller.exe se abnormálně ukončil, protože Windows byl v procesu vypínání.</value>
+  </data>
+  <data name="CannotStopLocationService" xml:space="preserve">
+    <value>Nejde zastavit službu umístění z proxy.</value>
+  </data>
+  <data name="ServiceHubConfigFilePathIsNotAbsolute" xml:space="preserve">
+    <value>Cesta ke konfiguračnímu souboru ServiceHub {0} není absolutní.</value>
+  </data>
+  <data name="LoadingHostInfo" xml:space="preserve">
+    <value>Načítání informací o hostiteli pro {0} z {1}</value>
+  </data>
+  <data name="HostTypeNotFound" xml:space="preserve">
+    <value>Typ hostitele {0} se v {1} nedá najít.</value>
+  </data>
+  <data name="IgnoringDuplicateExit" xml:space="preserve">
+    <value>Ignorování duplicitního příkazu exit.</value>
+  </data>
+  <data name="ControllerConnectionTimeoutExceptionMessage" xml:space="preserve">
+    <value>Microsoft.ServiceHub.Controller.exe se normálně ukončil před přijetím připojení. Může být nutné zvýšit časový limit vychladnutí řadiče.</value>
+  </data>
+  <data name="CannotFindServiceModuleFileWithReason" xml:space="preserve">
+    <value>Nejde najít soubor s informacemi o modulu služby {0} v {1}, použití služeb zjišťování se nepodařilo: {2}.</value>
+  </data>
+  <data name="FailedToValidateController" xml:space="preserve">
+    <value>Ověření procesu Controlleru, ke kterému se připojujete, se nezdařilo.</value>
+  </data>
+  <data name="LoadingServiceFromLocation" xml:space="preserve">
+    <value>Načítá se služba {0} z {1}.</value>
+  </data>
+  <data name="FailedToValidateClient" xml:space="preserve">
+    <value>Ověření klienta připojujícího se ke kanálu {0} se nezdařilo.</value>
+  </data>
+  <data name="ContextEnvironmentVariableNotFoundInProvidedEnvironment" xml:space="preserve">
+    <value>Hodnota ContextEnvironmentVariable {0} se v poskytnuté mapě prostředí nenašla.</value>
+  </data>
+  <data name="CannotResolveHost" xml:space="preserve">
+    <value>Nejde přeložit a načíst informace o hostiteli pro {0} z {1}: {2}.</value>
+  </data>
+  <data name="ServiceOverrideNotFoundWithError" xml:space="preserve">
+    <value>Nebyla nalezena služba, kterou se má přepsat služba {0}: {1}</value>
+  </data>
+  <data name="ControllerConnectionInvalidArgumentExceptionMessage" xml:space="preserve">
+    <value>Microsoft.ServiceHub.Controller.exe byl spuštěn s neplatným příkazovým řádkem.</value>
+  </data>
+  <data name="LoadServiceModuleError" xml:space="preserve">
+    <value>Chyba při načítání modulu služby {0}: {1}</value>
+  </data>
+  <data name="hostTypeNotFoundInLocation" xml:space="preserve">
+    <value>Nejde najít typ hostitele {0} v {1} nebo v {2}.</value>
+  </data>
+  <data name="ForceControllerShutDown" xml:space="preserve">
+    <value>Vynucené vypnutí kontroleru centra</value>
+  </data>
+  <data name="LocatingService" xml:space="preserve">
+    <value>Vyhledávání služby {0}, kterou požadoval {1}</value>
+  </data>
+  <data name="ServiceHubConfigFileNameIsIncorrect" xml:space="preserve">
+    <value>Název konfiguračního souboru ServiceHub v {0} není shodný se servicehub.config.json.</value>
+  </data>
+  <data name="ObjectDisposed" xml:space="preserve">
+    <value>Objekt se odstranil.</value>
+  </data>
+  <data name="LengthCannotBeNegative" xml:space="preserve">
+    <value>Délka nesmí být záporná.</value>
+  </data>
+  <data name="CouldNotGetProcessId" xml:space="preserve">
+    <value>Nepodařilo se získat ID procesu klienta připojujícího se k tomuto kanálu.</value>
+  </data>
+  <data name="MultipleFileFound" xml:space="preserve">
+    <value>Očekává se jenom jeden soubor. V {0} se jich našlo víc: {1}</value>
+  </data>
+  <data name="ServiceModuleInvalidProperty" xml:space="preserve">
+    <value>Informace o modulu Služby pro službu {0} obsahuje ve vlastnosti {2} neplatnou hodnotu {1}.</value>
+  </data>
+  <data name="ServiceStartedAfterHostShutDown" xml:space="preserve">
+    <value>Služba {0} se spustila po inicializaci vypnutí hostitele. Služba se vypne.</value>
+  </data>
+  <data name="HostRemovedFromCache" xml:space="preserve">
+    <value>Hostitel {0} byl odebrán z mezipaměti hostitelů.</value>
+  </data>
+  <data name="ControllerNotResponding" xml:space="preserve">
+    <value>Kontroler nereaguje na příchozí žádosti.</value>
+  </data>
+  <data name="LogConfig" xml:space="preserve">
+    <value>Log configuration: {0}</value>
+  </data>
+  <data name="MoreThanOneHostPending" xml:space="preserve">
+    <value>Když se jednomu z hostitelů nepodaří poskytnout ID hostitele, čeká na vyřízení víc než jeden hostitel.</value>
+  </data>
+  <data name="HostGroupNotSupported" xml:space="preserve">
+    <value>Služba {0} nepodporuje skupiny hostitelů a nedá se spustit ve skupině hostitelů {1}. Pokud chcete pro službu povolit skupiny hostitelů, nastavte vlastnost {2} v konfiguračním souboru služby na true.</value>
+  </data>
+  <data name="CouldNotKillHost" xml:space="preserve">
+    <value>Nepovedlo se ukončit hostitele {0}: {1}</value>
+  </data>
+  <data name="InvalidCommandLine" xml:space="preserve">
+    <value>TODO: opravit tento řetězec – Neplatný příkazový řádek. Použití: node {0} [&lt;Controller channel name&gt;]</value>
+  </data>
+  <data name="CachedHostIsShutdown" xml:space="preserve">
+    <value>Hostitel {0}, který je v mezipaměti, se vypnul. Hostitel se restartuje.</value>
+  </data>
+  <data name="FailedToConnectToController" xml:space="preserve">
+    <value>Nepodařilo se připojit ke službě vyhledávání kontroleru v {0} po zkoušení po dobu {1} ms.</value>
+  </data>
+  <data name="ErrorDecoding" xml:space="preserve">
+    <value>Chyba při dekódování řetězce: {0}</value>
+  </data>
+  <data name="StartingHostError" xml:space="preserve">
+    <value>Chyba při spouštění hostitele centra {0} {1}: {2}.</value>
+  </data>
+  <data name="FailedToDeleteFile" xml:space="preserve">
+    <value>Nepovedlo se odstranit soubor {0}. Typ chyby = {1}, chybová zpráva = {2}</value>
+  </data>
+  <data name="LaunchingHostWithCmd" xml:space="preserve">
+    <value>Spouštění hostitele centra {0} s příkazovým řádkem: {1}</value>
+  </data>
+  <data name="FailedToEnumerateFilesInDir" xml:space="preserve">
+    <value>Nepovedlo se vytvořit výčet souborů v adresáři {0}. Typ chyby = {1}, chybová zpráva = {2}</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Načítá se {0}...</value>
+  </data>
+  <data name="ServiceInfoInvalidSpaceInHostId" xml:space="preserve">
+    <value>Informace o modulu služeb pro službu {0} obsahuje mezeru v ID hostitele {1}.</value>
+  </data>
+  <data name="GetHostIdFailed" xml:space="preserve">
+    <value>Nejde získat ID nově vytvořeného hostitele: {0}</value>
+  </data>
+  <data name="NoPipeName" xml:space="preserve">
+    <value>Za {0} nenásleduje žádný název kanálu.</value>
+  </data>
+  <data name="FailedToEnumerateDirs" xml:space="preserve">
+    <value>Nepovedlo se vytvořit výčet adresářů v {0}. Typ chyby = {1}, chybová zpráva = {2}</value>
+  </data>
+  <data name="ServiceNameNotSpecified" xml:space="preserve">
+    <value>Název služby není určený.</value>
+  </data>
+  <data name="AllExternalClientsDisconnected" xml:space="preserve">
+    <value>Všichni externí klienti se odpojili.</value>
+  </data>
+  <data name="StartServiceRequestRejected" xml:space="preserve">
+    <value>Žádost startService() pro službu {0} se zamítla, protože byla přijata po vypnutí.</value>
+  </data>
+  <data name="ErrorParsingJson" xml:space="preserve">
+    <value>Chyba při analýze JSON ze souboru {0}: {1}</value>
+  </data>
+  <data name="HostInfoNotDefined" xml:space="preserve">
+    <value>Informace o hostiteli v {0} nejsou definované.</value>
+  </data>
+  <data name="LocatingServcieError" xml:space="preserve">
+    <value>Chyba služby zjišťování {0} při vyhledávání služby {1}: {2} v {3}</value>
+  </data>
+  <data name="UncaughtExceptionWithStack" xml:space="preserve">
+    <value>Nezachycená výjimka. Ukončování procesu s kódem chyby {0}: {1} v {2}.</value>
+  </data>
+  <data name="ServiceVersionNotSupported" xml:space="preserve">
+    <value>Požadovaná služba s verzí {0} se nepodporuje.</value>
+  </data>
+  <data name="HostExited" xml:space="preserve">
+    <value>Hostitel centra {0}, PID: {1} se ukončil.</value>
+  </data>
+  <data name="StartingServer" xml:space="preserve">
+    <value>Spouštění serveru {0} na adrese {1} (místní cesta serveru: {2}).</value>
+  </data>
+  <data name="UrlShouldStartWith" xml:space="preserve">
+    <value>Argument url by měl začínat na {0}.</value>
+  </data>
+  <data name="ExitCommandReceived" xml:space="preserve">
+    <value>Hostitel centra přijal příkaz pro ukončení.</value>
+  </data>
+  <data name="NoFolderSpecified" xml:space="preserve">
+    <value>Konfigurace centra služeb nemá zadanou žádnou složku pro služby.</value>
+  </data>
+  <data name="CannotResolveServiceModuleInfo" xml:space="preserve">
+    <value>Nejde přeložit a načíst informace o modulu služby pro {0} v {1}: {2}</value>
+  </data>
+</root>

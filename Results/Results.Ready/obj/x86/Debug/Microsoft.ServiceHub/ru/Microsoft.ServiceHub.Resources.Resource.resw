@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StartServiceRequestReceived" xml:space="preserve">
+    <value>Хост узла получил запрос запуска для службы "{0}"</value>
+  </data>
+  <data name="LoadingServiceModule" xml:space="preserve">
+    <value>Идет загрузка сведений о модуле службы "{0}" для службы "{1}"</value>
+  </data>
+  <data name="ClientWatchStreamException" xml:space="preserve">
+    <value>Возникло исключение при чтении из потока отслеживания клиента. {0}: {1}.</value>
+  </data>
+  <data name="HostExitedWithCode" xml:space="preserve">
+    <value>код: "{0}" {1}.</value>
+  </data>
+  <data name="NodeHubControllerProcessCouldNotBeStarted" xml:space="preserve">
+    <value>Не удалось запустить процесс: {0}</value>
+  </data>
+  <data name="VariableIsNotDefined" xml:space="preserve">
+    <value>Переменная {0} не определена</value>
+  </data>
+  <data name="ServiceLocated" xml:space="preserve">
+    <value>Служба \"{0}\", которую запрашивает {2}, найдена в "{1}".</value>
+  </data>
+  <data name="InvalidConfigContents" xml:space="preserve">
+    <value>Недопустимо содержание конфигурации в "{0}". Содержание: {1}</value>
+  </data>
+  <data name="VariableMustBeFunction" xml:space="preserve">
+    <value>Переменная {0} должна быть функцией в "{1}". Фактически это {2}.</value>
+  </data>
+  <data name="ExitingHubController" xml:space="preserve">
+    <value>Идет завершение работы контроллера концентратора.</value>
+  </data>
+  <data name="AttemptToLocateServiceRetry" xml:space="preserve">
+    <value>Повторно устанавливается подключение к службе {0}: попытка {1}</value>
+  </data>
+  <data name="ServiceHubConfigFileNameIsInvalid" xml:space="preserve">
+    <value>Имя файла конфигурации центра обслуживания "{0}" не совпадает с ожидаемым именем: "{1}".</value>
+  </data>
+  <data name="ServiceStarted" xml:space="preserve">
+    <value>Служба "{0}" успешно запущена. Идентификатор процесса "{1}". Конечная точка службы: "{2}"</value>
+  </data>
+  <data name="ServiceEntryPointConstructorNotFound" xml:space="preserve">
+    <value>Не удалось найти функцию конструктора для точки входа службы "{0}". Проверьте, содержит ли модуль службы свойство службы entryPoint.constructorFunction.</value>
+  </data>
+  <data name="DisconnectingDiscoveryServiceFailed" xml:space="preserve">
+    <value>Произошла ошибка при отключении от службы обнаружения "{0}": {1} {2}</value>
+  </data>
+  <data name="StartingHubHost" xml:space="preserve">
+    <value>Идет запуск хоста концентратора "{0}". Канал обратного вызова хоста: "{1}"</value>
+  </data>
+  <data name="ServiceOverrideNotFound" xml:space="preserve">
+    <value>Не удалось найти службу, которой необходимо переопределить службу "{0}".</value>
+  </data>
+  <data name="HostLaunched" xml:space="preserve">
+    <value>Запущен хост концентратора "{0}". Идентификатор процесса: {1}</value>
+  </data>
+  <data name="UncaughtException" xml:space="preserve">
+    <value>Неперехваченное исключение. Идет завершение работы процесса с кодом ошибки {0}: {1}.</value>
+  </data>
+  <data name="FailedToDeleteDirectory" xml:space="preserve">
+    <value>Не удалось удалить файл "{0}". Тип ошибки: {1}, сообщение об ошибке: {2}</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Не удалось найти файл: {0}</value>
+  </data>
+  <data name="FailedToGetFileStats" xml:space="preserve">
+    <value>Не удалось получить статистику для файла "{0}". Тип ошибки: {1}, сообщение об ошибке: {2}</value>
+  </data>
+  <data name="HostInfoInvalid" xml:space="preserve">
+    <value>В сведениях о хосте в "{0}" нет членов hostExecutable:string и hostArgs:string[]</value>
+  </data>
+  <data name="NotifyHubControllerForServicesStartedFailed" xml:space="preserve">
+    <value>Произошла ошибка при уведомлении контроллера концентратора о запуске служб хоста: {0}</value>
+  </data>
+  <data name="CreateServiceInstanceError" xml:space="preserve">
+    <value>Ошибка при создании экземпляра модуля службы для "{0}". Поток для клиента будет закрыт: "{1}".</value>
+  </data>
+  <data name="NotifyHubControllerForServicesEndedFailed" xml:space="preserve">
+    <value>Произошла ошибка при уведомлении контроллера концентратора о завершении работы служб хоста: {0}</value>
+  </data>
+  <data name="SkipHostCooldown" xml:space="preserve">
+    <value>Пропуск startHostCooldown, так как запрошена отладка при запуске для узла {0}.</value>
+  </data>
+  <data name="UnknownHost" xml:space="preserve">
+    <value>Неизвестный узел "{0}"</value>
+  </data>
+  <data name="CloseHubStreamFailed" xml:space="preserve">
+    <value>Произошла ошибка при закрытии потока концентратора: {0}</value>
+  </data>
+  <data name="DisposeServiceError" xml:space="preserve">
+    <value>Произошла ошибка при освобождении экземпляра {0} службы "{1}": {2}</value>
+  </data>
+  <data name="Inactivity" xml:space="preserve">
+    <value>неактивность</value>
+  </data>
+  <data name="HostInfoNotFound" xml:space="preserve">
+    <value>Не удалось найти объект HostInfo для "{0}", когда подключился узел</value>
+  </data>
+  <data name="ErrorShuttingDownHosts" xml:space="preserve">
+    <value>Произошла ошибка при завершении хост-процессов {0}.</value>
+  </data>
+  <data name="ErrorLocationServiceEnvVarNotSet" xml:space="preserve">
+    <value>Необходимо задать переменную среду "{0}".</value>
+  </data>
+  <data name="StoppedServer" xml:space="preserve">
+    <value>Сервер "{0}" остановлен в "{1}".</value>
+  </data>
+  <data name="ServiceHubConfigJsonNotFound" xml:space="preserve">
+    <value>Не удалось найти {0} в {1} и родительских каталогах</value>
+  </data>
+  <data name="StartingServiceFailed" xml:space="preserve">
+    <value>Произошла ошибка при запуске службы "{0}", которую запрашивает {1}: {2}</value>
+  </data>
+  <data name="UrlHasNoPipeName" xml:space="preserve">
+    <value>URL-адрес не содержит имя канала после "{0}"</value>
+  </data>
+  <data name="ServiceOverrideSearching" xml:space="preserve">
+    <value>Для службы "{0}" установлен параметр ServiceOverride. Поиск службы для переопределения этой службы.</value>
+  </data>
+  <data name="ServiceEntryPointFileNameNotFound" xml:space="preserve">
+    <value>Не удалось найти имя файла для точки входа службы "{0}". Проверьте, содержит ли модуль службы свойство службы entryPoint.scriptPath.</value>
+  </data>
+  <data name="ServiceRemovedFromCache" xml:space="preserve">
+    <value>Служба "{0}" была удалена из кэша обнаруженных служб.</value>
+  </data>
+  <data name="CannotFindServiceModuleFile" xml:space="preserve">
+    <value>Не удается найти файл сведений о модуле службы "{0}" в "{1}"</value>
+  </data>
+  <data name="ConnectedToService" xml:space="preserve">
+    <value>К службе {0} подключился клиент</value>
+  </data>
+  <data name="ClientIsNotChildOfController" xml:space="preserve">
+    <value>Клиент, подключающийся к каналу RemoteServiceBroker, не является дочерним элементом процесса контроллера.</value>
+  </data>
+  <data name="FirstTimeLoadingService" xml:space="preserve">
+    <value>Служба "{0}" не загружалась ранее. Идет загрузка.</value>
+  </data>
+  <data name="StoppingHost" xml:space="preserve">
+    <value>Идет остановка хоста "{0}" с идентификатором процесса {1} из-за {2}</value>
+  </data>
+  <data name="ControllerShuttingDown" xml:space="preserve">
+    <value>Процесс "{0}" завершается.</value>
+  </data>
+  <data name="NamedPipeClientCouldNotBeValidated" xml:space="preserve">
+    <value>Не удалось проверить клиент именованного канала.</value>
+  </data>
+  <data name="HostShuttingDown" xml:space="preserve">
+    <value>Завершается работа узла {0} для службы {1}. Будет запущен новый узел.</value>
+  </data>
+  <data name="StartingService" xml:space="preserve">
+    <value>Хост узла запускает службу "{0}"</value>
+  </data>
+  <data name="MessageAt" xml:space="preserve">
+    <value>в</value>
+  </data>
+  <data name="NoValueForProperty" xml:space="preserve">
+    <value>У {0} в {1} нет значения для свойства {2}</value>
+  </data>
+  <data name="ExitingHubControllerWithReason" xml:space="preserve">
+    <value>Идет завершение работы контроллера концентратора из-за {0}.</value>
+  </data>
+  <data name="FailedGetSaltString" xml:space="preserve">
+    <value>Не удалось получить пользовательскую строку заполнения случайными данными. {0}</value>
+  </data>
+  <data name="ServiceHubConfigFileDoesNotExist" xml:space="preserve">
+    <value>Файл конфигурации ServiceHub "{0}" не существует.</value>
+  </data>
+  <data name="VariablesAreNotDefined" xml:space="preserve">
+    <value>Переменные {0} не определены</value>
+  </data>
+  <data name="ServiceInfoInvalid" xml:space="preserve">
+    <value>Сведения о модуле службы "{0}" содержат зарезервированное свойство "{1}".</value>
+  </data>
+  <data name="HostInfoContainsReservedProperty" xml:space="preserve">
+    <value>Сведения о хосте "{0}" содержат зарезервированное свойство "filePath"</value>
+  </data>
+  <data name="HostExitedWithSignal" xml:space="preserve">
+    <value>Сигнал: "{0}".</value>
+  </data>
+  <data name="ControllerConnectionWindowsShutdownExceptionMessage" xml:space="preserve">
+    <value>Ненормальный выход Microsoft.ServiceHub.Controller.exe, поскольку система Windows находится в процессе завершения работы.</value>
+  </data>
+  <data name="CannotStopLocationService" xml:space="preserve">
+    <value>Не удается остановить службу расположения с прокси-сервера</value>
+  </data>
+  <data name="ServiceHubConfigFilePathIsNotAbsolute" xml:space="preserve">
+    <value>Путь к файлу конфигурации ServiceHub "{0}" не является абсолютным.</value>
+  </data>
+  <data name="LoadingHostInfo" xml:space="preserve">
+    <value>Идет загрузка сведений о хосте для "{0}" из "{1}"</value>
+  </data>
+  <data name="HostTypeNotFound" xml:space="preserve">
+    <value>Тип узла "{0}" не найден в "{1}".</value>
+  </data>
+  <data name="IgnoringDuplicateExit" xml:space="preserve">
+    <value>Пропускается повторяющаяся команда завершения работы.</value>
+  </data>
+  <data name="ControllerConnectionTimeoutExceptionMessage" xml:space="preserve">
+    <value>Нормальный выход Microsoft.ServiceHub.Controller.exe перед принятием подключения. Может потребоваться увеличить время ожидания контроллера.</value>
+  </data>
+  <data name="CannotFindServiceModuleFileWithReason" xml:space="preserve">
+    <value>Не удается найти файл сведений о модуле службы "{0}" в "{1}", не удалось использовать службы обнаружения: {2}</value>
+  </data>
+  <data name="FailedToValidateController" xml:space="preserve">
+    <value>Не удалось проверить процесс контроллера, к которому производится подключение.</value>
+  </data>
+  <data name="LoadingServiceFromLocation" xml:space="preserve">
+    <value>Идет загрузка службы "{0}" из файла "{1}".</value>
+  </data>
+  <data name="FailedToValidateClient" xml:space="preserve">
+    <value>Не удалось проверить клиент, подключающийся к каналу "{0}".</value>
+  </data>
+  <data name="ContextEnvironmentVariableNotFoundInProvidedEnvironment" xml:space="preserve">
+    <value>Переменная ContextEnvironmentVariable "{0}" не найдена в указанном сопоставлении сред.</value>
+  </data>
+  <data name="CannotResolveHost" xml:space="preserve">
+    <value>Не удается разрешить и загрузить сведения о хосте для "{0}" из "{1}": {2}</value>
+  </data>
+  <data name="ServiceOverrideNotFoundWithError" xml:space="preserve">
+    <value>Не удалось найти службу, которой необходимо переопределить службу "{0}". Ошибка: {1}</value>
+  </data>
+  <data name="ControllerConnectionInvalidArgumentExceptionMessage" xml:space="preserve">
+    <value>Программа Microsoft.ServiceHub.Controller.exe запущена с недопустимой командой в командной строке.</value>
+  </data>
+  <data name="LoadServiceModuleError" xml:space="preserve">
+    <value>Произошла ошибка при загрузке модуля службы "{0}": {1}</value>
+  </data>
+  <data name="hostTypeNotFoundInLocation" xml:space="preserve">
+    <value>Тип узла "{0}" не найден в "{1}" и "{2}".</value>
+  </data>
+  <data name="ForceControllerShutDown" xml:space="preserve">
+    <value>Принудительное завершение работы для контроллера концентратора.</value>
+  </data>
+  <data name="LocatingService" xml:space="preserve">
+    <value>Идет определение расположения службы "{0}", запрошенной {1}</value>
+  </data>
+  <data name="ServiceHubConfigFileNameIsIncorrect" xml:space="preserve">
+    <value>Имя файла конфигурации ServiceHub в "{0}" — не "servicehub.config.json".</value>
+  </data>
+  <data name="ObjectDisposed" xml:space="preserve">
+    <value>Объект освобожден.</value>
+  </data>
+  <data name="LengthCannotBeNegative" xml:space="preserve">
+    <value>Длина не должна быть отрицательной</value>
+  </data>
+  <data name="CouldNotGetProcessId" xml:space="preserve">
+    <value>Не удалось получить идентификатор процесса клиента, подключающегося к этому каналу.</value>
+  </data>
+  <data name="MultipleFileFound" xml:space="preserve">
+    <value>Ожидается только один файл. В "{0}" обнаружено несколько файлов: {1}</value>
+  </data>
+  <data name="ServiceModuleInvalidProperty" xml:space="preserve">
+    <value>Сведения о модуле службы "{0}" содержат недопустимое значение "{1}" для свойства "{2}".</value>
+  </data>
+  <data name="ServiceStartedAfterHostShutDown" xml:space="preserve">
+    <value>Служба "{0}" запущена после завершения работы узла. Работа службы будет завершена.</value>
+  </data>
+  <data name="HostRemovedFromCache" xml:space="preserve">
+    <value>Узел "{0}" был удален из кэша узлов.</value>
+  </data>
+  <data name="ControllerNotResponding" xml:space="preserve">
+    <value>Контроллер не отвечает на входящие запросы.</value>
+  </data>
+  <data name="LogConfig" xml:space="preserve">
+    <value>Log configuration: {0}</value>
+  </data>
+  <data name="MoreThanOneHostPending" xml:space="preserve">
+    <value>Один из хостов не предоставил идентификатор хоста, при этом в режиме ожидания находятся несколько хостов</value>
+  </data>
+  <data name="HostGroupNotSupported" xml:space="preserve">
+    <value>Служба "{0}" не поддерживает группы узлов и не может работать в "{1}". Чтобы включить для нее группы узлов, в файле конфигурации службы задайте свойству "{2}" значение True.</value>
+  </data>
+  <data name="CouldNotKillHost" xml:space="preserve">
+    <value>Не удалось завершить работу узла {0}: {1}.</value>
+  </data>
+  <data name="InvalidCommandLine" xml:space="preserve">
+    <value>TODO: fix this string - Invalid command line. Usage: 'node {0} [&lt;Controller channel name&gt;]'</value>
+  </data>
+  <data name="CachedHostIsShutdown" xml:space="preserve">
+    <value>Кэшированный узел "{0}" завершил работу. Перезапуск узла.</value>
+  </data>
+  <data name="FailedToConnectToController" xml:space="preserve">
+    <value>Не удалось подключиться к службе расположения контроллера в "{0}" за {1} мс</value>
+  </data>
+  <data name="ErrorDecoding" xml:space="preserve">
+    <value>Произошла ошибка при декодировании строки: {0}</value>
+  </data>
+  <data name="StartingHostError" xml:space="preserve">
+    <value>Произошла ошибка при запуске хоста концентратора {0}"{1}": "{2}".</value>
+  </data>
+  <data name="FailedToDeleteFile" xml:space="preserve">
+    <value>Не удалось удалить файл "{0}". Тип ошибки: {1}, сообщение об ошибке: {2}</value>
+  </data>
+  <data name="LaunchingHostWithCmd" xml:space="preserve">
+    <value>Идет запуск хоста концентратора "{0}" с командной строкой "{1}"</value>
+  </data>
+  <data name="FailedToEnumerateFilesInDir" xml:space="preserve">
+    <value>Не удалось перечислить файлы в каталоге "{0}". Тип ошибки: {1}, сообщение об ошибке: {2}</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Загрузка "{0}"</value>
+  </data>
+  <data name="ServiceInfoInvalidSpaceInHostId" xml:space="preserve">
+    <value>Сведения о модуле службы "{0}" содержат пробел в идентификаторе узла "{1}".</value>
+  </data>
+  <data name="GetHostIdFailed" xml:space="preserve">
+    <value>Не удалось получить идентификатор созданного хоста: {0}</value>
+  </data>
+  <data name="NoPipeName" xml:space="preserve">
+    <value>Отсутствует имя канала после "{0}"</value>
+  </data>
+  <data name="FailedToEnumerateDirs" xml:space="preserve">
+    <value>Не удалось перечислить подкаталоги в каталоге "{0}". Тип ошибки: {1}, сообщение об ошибке: {2}</value>
+  </data>
+  <data name="ServiceNameNotSpecified" xml:space="preserve">
+    <value>Имя службы не указано</value>
+  </data>
+  <data name="AllExternalClientsDisconnected" xml:space="preserve">
+    <value>Все внешние клиенты отключены.</value>
+  </data>
+  <data name="StartServiceRequestRejected" xml:space="preserve">
+    <value>Запрос startService() для службы "{0}" отклонен, он был получен после завершения работы</value>
+  </data>
+  <data name="ErrorParsingJson" xml:space="preserve">
+    <value>Произошла ошибка при анализе JSON из файла {0}: {1}</value>
+  </data>
+  <data name="HostInfoNotDefined" xml:space="preserve">
+    <value>Сведения о хосте в "{0}" не определены</value>
+  </data>
+  <data name="LocatingServcieError" xml:space="preserve">
+    <value>Произошла ошибка службы обнаружения "{0}" при поиске службы "{1}": {2} в {3}</value>
+  </data>
+  <data name="UncaughtExceptionWithStack" xml:space="preserve">
+    <value>Неперехваченное исключение. Идет завершение работы процесса с кодом ошибки {0}: {1} в {2}.</value>
+  </data>
+  <data name="ServiceVersionNotSupported" xml:space="preserve">
+    <value>Запрашиваемая служба версии {0} не поддерживается.</value>
+  </data>
+  <data name="HostExited" xml:space="preserve">
+    <value>Завершена работа хоста концентратора "{0}", идентификатор процесса: {1}.</value>
+  </data>
+  <data name="StartingServer" xml:space="preserve">
+    <value>Идет запуск сервера "{0}" в "{1}" (в "{2}").</value>
+  </data>
+  <data name="UrlShouldStartWith" xml:space="preserve">
+    <value>URL-адрес должен начинаться с "{0}"</value>
+  </data>
+  <data name="ExitCommandReceived" xml:space="preserve">
+    <value>Хост концентратора получил команду завершения работы.</value>
+  </data>
+  <data name="NoFolderSpecified" xml:space="preserve">
+    <value>В конфигурации концентратора служб не указана папка служб</value>
+  </data>
+  <data name="CannotResolveServiceModuleInfo" xml:space="preserve">
+    <value>Не удается разрешить и загрузить сведения о модуле службы для "{0}" из "{1}": {2}</value>
+  </data>
+</root>

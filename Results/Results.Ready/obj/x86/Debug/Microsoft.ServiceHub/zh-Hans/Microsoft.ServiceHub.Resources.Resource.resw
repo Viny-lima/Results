@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StartServiceRequestReceived" xml:space="preserve">
+    <value>节点主机收到服务“{0}”的启动请求</value>
+  </data>
+  <data name="LoadingServiceModule" xml:space="preserve">
+    <value>正在加载服务“{1}”的服务模块信息“{0}”</value>
+  </data>
+  <data name="ClientWatchStreamException" xml:space="preserve">
+    <value>从客户端监视流中读取数据时引发了异常。{0}: {1}</value>
+  </data>
+  <data name="HostExitedWithCode" xml:space="preserve">
+    <value>代码:“{0}”{1}。</value>
+  </data>
+  <data name="NodeHubControllerProcessCouldNotBeStarted" xml:space="preserve">
+    <value>无法启动进程: {0}</value>
+  </data>
+  <data name="VariableIsNotDefined" xml:space="preserve">
+    <value>未定义 {0}</value>
+  </data>
+  <data name="ServiceLocated" xml:space="preserve">
+    <value>已在“{1}”处找到 {2} 请求的服务“{0}”</value>
+  </data>
+  <data name="InvalidConfigContents" xml:space="preserve">
+    <value>“{0}”处的配置内容无效。内容: {1}</value>
+  </data>
+  <data name="VariableMustBeFunction" xml:space="preserve">
+    <value>{0} 必须是“{1}”中的函数。实际上，它是 {2}。</value>
+  </data>
+  <data name="ExitingHubController" xml:space="preserve">
+    <value>正在退出中心控制器。</value>
+  </data>
+  <data name="AttemptToLocateServiceRetry" xml:space="preserve">
+    <value>正在重试连接到服务 {0} - 第 {1} 次尝试</value>
+  </data>
+  <data name="ServiceHubConfigFileNameIsInvalid" xml:space="preserve">
+    <value>服务中心配置文件名“{0}”与预期名称“{1}”不匹配</value>
+  </data>
+  <data name="ServiceStarted" xml:space="preserve">
+    <value>已成功启动服务“{0}”。PID:“{1}”。服务终结点:“{2}”</value>
+  </data>
+  <data name="ServiceEntryPointConstructorNotFound" xml:space="preserve">
+    <value>未能找到“{0}”的服务入口点构造函数。请检查你的服务模块创作以确保它包含服务 entryPoint.constructorFunction 属性。</value>
+  </data>
+  <data name="DisconnectingDiscoveryServiceFailed" xml:space="preserve">
+    <value>从“{0}”发现服务断开连接时出错: {1} {2}</value>
+  </data>
+  <data name="StartingHubHost" xml:space="preserve">
+    <value>正在启动中心主机“{0}”。主机回叫管道:“{1}”</value>
+  </data>
+  <data name="ServiceOverrideNotFound" xml:space="preserve">
+    <value>找不到用于替代 {0} 服务的服务。</value>
+  </data>
+  <data name="HostLaunched" xml:space="preserve">
+    <value>启动的“{0}”中心主机。PID: {1}</value>
+  </data>
+  <data name="UncaughtException" xml:space="preserve">
+    <value>未捕获的异常。正在退出进程，错误代码 {0}: {1}。</value>
+  </data>
+  <data name="FailedToDeleteDirectory" xml:space="preserve">
+    <value>未能删除文件“{0}”。错误类型={1}，错误消息={2}</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>找不到文件: {0}</value>
+  </data>
+  <data name="FailedToGetFileStats" xml:space="preserve">
+    <value>未能获取文件“{0}”的统计信息。错误类型={1}，错误消息={2}</value>
+  </data>
+  <data name="HostInfoInvalid" xml:space="preserve">
+    <value>“{0}”处的主机信息不含 hostExecutable:string 和 hostArgs:string[] 成员</value>
+  </data>
+  <data name="NotifyHubControllerForServicesStartedFailed" xml:space="preserve">
+    <value>在通知主机服务启动的中心集线器时出错: {0}</value>
+  </data>
+  <data name="CreateServiceInstanceError" xml:space="preserve">
+    <value>创建“{0}”的服务模块实例，关闭到客户端的流时出错:“{1}”。</value>
+  </data>
+  <data name="NotifyHubControllerForServicesEndedFailed" xml:space="preserve">
+    <value>在通知主机服务结束的中心集线器时出错: {0}</value>
+  </data>
+  <data name="SkipHostCooldown" xml:space="preserve">
+    <value>跳过 StartHostCooldown，因为主机 {0} 已请求在启动时进行调试</value>
+  </data>
+  <data name="UnknownHost" xml:space="preserve">
+    <value>未知主机“{0}”</value>
+  </data>
+  <data name="CloseHubStreamFailed" xml:space="preserve">
+    <value>关闭中心流时出错: {0}</value>
+  </data>
+  <data name="DisposeServiceError" xml:space="preserve">
+    <value>释放“{1}”服务的 {0} 实例时出错: {2}</value>
+  </data>
+  <data name="Inactivity" xml:space="preserve">
+    <value>非活动</value>
+  </data>
+  <data name="HostInfoNotFound" xml:space="preserve">
+    <value>某个主机已连接时，未能找到“{0}”的 HostInfo 对象</value>
+  </data>
+  <data name="ErrorShuttingDownHosts" xml:space="preserve">
+    <value>关闭主机进程时出错，错误原因: {0}。</value>
+  </data>
+  <data name="ErrorLocationServiceEnvVarNotSet" xml:space="preserve">
+    <value>应设置环境变量“{0}”。</value>
+  </data>
+  <data name="StoppedServer" xml:space="preserve">
+    <value>已停止位于“{1}”处的服务器“{0}”。</value>
+  </data>
+  <data name="ServiceHubConfigJsonNotFound" xml:space="preserve">
+    <value>在 {1} 及其任何父目录中找不到 {0}</value>
+  </data>
+  <data name="StartingServiceFailed" xml:space="preserve">
+    <value>在启动 {1} 请求的服务“{0}”时出错: {2}</value>
+  </data>
+  <data name="UrlHasNoPipeName" xml:space="preserve">
+    <value>URL 在“{0}”后没有管道名称</value>
+  </data>
+  <data name="ServiceOverrideSearching" xml:space="preserve">
+    <value>{0} 被标记为启用 ServiceOverride。搜索替代服务。</value>
+  </data>
+  <data name="ServiceEntryPointFileNameNotFound" xml:space="preserve">
+    <value>未能找到“{0}”的服务入口点文件名。请检查你的服务模块创作以确保它包含服务 entryPoint.scriptPath 属性。</value>
+  </data>
+  <data name="ServiceRemovedFromCache" xml:space="preserve">
+    <value>已从指定的服务缓存中删除了服务 {0}。</value>
+  </data>
+  <data name="CannotFindServiceModuleFile" xml:space="preserve">
+    <value>在“{1}”中找不到服务模块信息文件“{0}”</value>
+  </data>
+  <data name="ConnectedToService" xml:space="preserve">
+    <value>连接到 {0} 的客户端</value>
+  </data>
+  <data name="ClientIsNotChildOfController" xml:space="preserve">
+    <value>连接到 “RemoteServiceBroker” 管道的客户端不是控制器进程的子级。</value>
+  </data>
+  <data name="FirstTimeLoadingService" xml:space="preserve">
+    <value>之前尚未加载服务“{0}”。现在正在加载。</value>
+  </data>
+  <data name="StoppingHost" xml:space="preserve">
+    <value>正在停止主机“{0}”PID: {1}，因为 {2}</value>
+  </data>
+  <data name="ControllerShuttingDown" xml:space="preserve">
+    <value>“{0}”进程正在终止。</value>
+  </data>
+  <data name="NamedPipeClientCouldNotBeValidated" xml:space="preserve">
+    <value>无法验证命名的管道客户端。</value>
+  </data>
+  <data name="HostShuttingDown" xml:space="preserve">
+    <value>正在关闭服务 {1} 的主机 {0}。我们将启动一个新的主机</value>
+  </data>
+  <data name="StartingService" xml:space="preserve">
+    <value>正在启动服务“{0}”的节点主机</value>
+  </data>
+  <data name="MessageAt" xml:space="preserve">
+    <value>在</value>
+  </data>
+  <data name="NoValueForProperty" xml:space="preserve">
+    <value>{1} 中的 {0} 没有 {2} 属性的值</value>
+  </data>
+  <data name="ExitingHubControllerWithReason" xml:space="preserve">
+    <value>由于 {0} 的原因而退出中心控制器。</value>
+  </data>
+  <data name="FailedGetSaltString" xml:space="preserve">
+    <value>未能获取用户特定的 salt 字符串。{0}</value>
+  </data>
+  <data name="ServiceHubConfigFileDoesNotExist" xml:space="preserve">
+    <value>ServiceHub 配置文件“{0}”不存在。</value>
+  </data>
+  <data name="VariablesAreNotDefined" xml:space="preserve">
+    <value>未定义 {0}</value>
+  </data>
+  <data name="ServiceInfoInvalid" xml:space="preserve">
+    <value>服务 "{0}" 的服务模块信息包含保留的 "{1}" 属性</value>
+  </data>
+  <data name="HostInfoContainsReservedProperty" xml:space="preserve">
+    <value>“{0}”处的主机信息包含保留的 "filePath" 属性</value>
+  </data>
+  <data name="HostExitedWithSignal" xml:space="preserve">
+    <value>信号:“{0}”。</value>
+  </data>
+  <data name="ControllerConnectionWindowsShutdownExceptionMessage" xml:space="preserve">
+    <value>Microsoft.ServiceHub.Controller.exe 异常退出，因为 Windows 正在关闭。</value>
+  </data>
+  <data name="CannotStopLocationService" xml:space="preserve">
+    <value>从代理服务器无法停止位置服务</value>
+  </data>
+  <data name="ServiceHubConfigFilePathIsNotAbsolute" xml:space="preserve">
+    <value>ServiceHub 配置文件路径 {0} 不是绝对路径</value>
+  </data>
+  <data name="LoadingHostInfo" xml:space="preserve">
+    <value>正在从“{1}”加载“{0}”的主机信息</value>
+  </data>
+  <data name="HostTypeNotFound" xml:space="preserve">
+    <value>无法在“{1}”中找到主机类型“{0}”</value>
+  </data>
+  <data name="IgnoringDuplicateExit" xml:space="preserve">
+    <value>正在忽略重复退出命令。</value>
+  </data>
+  <data name="ControllerConnectionTimeoutExceptionMessage" xml:space="preserve">
+    <value>在接受连接之前，Microsoft.ServiceHub.Controller.exe 已正常退出。可能需要增加控制器冷却超时。</value>
+  </data>
+  <data name="CannotFindServiceModuleFileWithReason" xml:space="preserve">
+    <value>在“{1}”中找不到服务模块信息文件“{0}”，使用发现服务失败: {2}</value>
+  </data>
+  <data name="FailedToValidateController" xml:space="preserve">
+    <value>无法验证正在连接到的控制器进程。</value>
+  </data>
+  <data name="LoadingServiceFromLocation" xml:space="preserve">
+    <value>正在从 {1} 加载服务 {0}。</value>
+  </data>
+  <data name="FailedToValidateClient" xml:space="preserve">
+    <value>无法验证连接到“{0}”管道的客户端。</value>
+  </data>
+  <data name="ContextEnvironmentVariableNotFoundInProvidedEnvironment" xml:space="preserve">
+    <value>在提供的环境映射中找不到 ContextEnvironmentVariable {0}。</value>
+  </data>
+  <data name="CannotResolveHost" xml:space="preserve">
+    <value>从“{1}”无法解析和加载“{0}”的主机信息: {2}</value>
+  </data>
+  <data name="ServiceOverrideNotFoundWithError" xml:space="preserve">
+    <value>找不到用于替代 {0} 服务的服务: {1}</value>
+  </data>
+  <data name="ControllerConnectionInvalidArgumentExceptionMessage" xml:space="preserve">
+    <value>Microsoft.ServiceHub.Controller.exe 启动时命令行无效。</value>
+  </data>
+  <data name="LoadServiceModuleError" xml:space="preserve">
+    <value>加载服务模块“{0}”时出错: {1}</value>
+  </data>
+  <data name="hostTypeNotFoundInLocation" xml:space="preserve">
+    <value>在“{1}”或“{2}”中找不到主机类型“{0}”</value>
+  </data>
+  <data name="ForceControllerShutDown" xml:space="preserve">
+    <value>已强制中心控制器关闭。</value>
+  </data>
+  <data name="LocatingService" xml:space="preserve">
+    <value>正在定位 {1} 请求的服务“{0}”</value>
+  </data>
+  <data name="ServiceHubConfigFileNameIsIncorrect" xml:space="preserve">
+    <value>{0} 中的 ServiceHub 配置文件名称不为 servicehub.config.json</value>
+  </data>
+  <data name="ObjectDisposed" xml:space="preserve">
+    <value>已处理对象</value>
+  </data>
+  <data name="LengthCannotBeNegative" xml:space="preserve">
+    <value>长度不得为负值</value>
+  </data>
+  <data name="CouldNotGetProcessId" xml:space="preserve">
+    <value>无法获取连接到此管道的客户端进程 ID。</value>
+  </data>
+  <data name="MultipleFileFound" xml:space="preserve">
+    <value>预计只有一个文件。实际上在“{0}”中找到了更多文件: {1}</value>
+  </data>
+  <data name="ServiceModuleInvalidProperty" xml:space="preserve">
+    <value>对于“{2}”属性，服务“{0}”的服务模块信息包含无效值“{1}”。</value>
+  </data>
+  <data name="ServiceStartedAfterHostShutDown" xml:space="preserve">
+    <value>服务“{0}”在启动主机关闭后已启动。该服务将关闭。</value>
+  </data>
+  <data name="HostRemovedFromCache" xml:space="preserve">
+    <value>已从主机缓存中删除主机 {0}。</value>
+  </data>
+  <data name="ControllerNotResponding" xml:space="preserve">
+    <value>控制器没有响应传入请求。</value>
+  </data>
+  <data name="LogConfig" xml:space="preserve">
+    <value>Log configuration: {0}</value>
+  </data>
+  <data name="MoreThanOneHostPending" xml:space="preserve">
+    <value>当其中一个主机未能提供主机 ID 时，多个主机将挂起</value>
+  </data>
+  <data name="HostGroupNotSupported" xml:space="preserve">
+    <value>服务 {0} 不支持的主机组，无法在主机组 {1} 中运行。请在服务配置文件中将 {2} 属性设置为 true 以启用该服务的主机组。</value>
+  </data>
+  <data name="CouldNotKillHost" xml:space="preserve">
+    <value>无法终止主机 {0}: {1}</value>
+  </data>
+  <data name="InvalidCommandLine" xml:space="preserve">
+    <value>TODO: 修复此字符串 - 无效的命令行。用法:“节点 {0} [&lt;Controller channel name&gt;]”</value>
+  </data>
+  <data name="CachedHostIsShutdown" xml:space="preserve">
+    <value>缓存的主机 {0} 已关闭。正在重启该主机。</value>
+  </data>
+  <data name="FailedToConnectToController" xml:space="preserve">
+    <value>在尝试 {1} 毫秒后，未能连接到“{0}”处的控制器定位服务</value>
+  </data>
+  <data name="ErrorDecoding" xml:space="preserve">
+    <value>解码字符串时出错: {0}</value>
+  </data>
+  <data name="StartingHostError" xml:space="preserve">
+    <value>启动中心主机 {0}“{1}”时出错:“{2}”。</value>
+  </data>
+  <data name="FailedToDeleteFile" xml:space="preserve">
+    <value>未能删除文件“{0}”。错误类型={1}，错误消息={2}</value>
+  </data>
+  <data name="LaunchingHostWithCmd" xml:space="preserve">
+    <value>使用命令行“{1}”启动“{0}”中心主机</value>
+  </data>
+  <data name="FailedToEnumerateFilesInDir" xml:space="preserve">
+    <value>未能枚举目录“{0}”中的文件。错误类型={1}，错误消息={2}</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>正在加载“{0}”</value>
+  </data>
+  <data name="ServiceInfoInvalidSpaceInHostId" xml:space="preserve">
+    <value>服务 "{0}" 的服务模块信息在主机 ID "{1}" 中包含空格</value>
+  </data>
+  <data name="GetHostIdFailed" xml:space="preserve">
+    <value>无法获得新建主机的主机 ID: {0}</value>
+  </data>
+  <data name="NoPipeName" xml:space="preserve">
+    <value>“{0}”后没有管道名称</value>
+  </data>
+  <data name="FailedToEnumerateDirs" xml:space="preserve">
+    <value>未能枚举“{0}”中的目录。错误类型={1}，错误消息={2}</value>
+  </data>
+  <data name="ServiceNameNotSpecified" xml:space="preserve">
+    <value>未指定服务名称</value>
+  </data>
+  <data name="AllExternalClientsDisconnected" xml:space="preserve">
+    <value>所有外部客户端已断开连接</value>
+  </data>
+  <data name="StartServiceRequestRejected" xml:space="preserve">
+    <value>服务“{0}”的 startService() 请求被拒绝，因为在关闭后才接收到该请求</value>
+  </data>
+  <data name="ErrorParsingJson" xml:space="preserve">
+    <value>从文件 {0} 分析 JSON 时出错: {1}</value>
+  </data>
+  <data name="HostInfoNotDefined" xml:space="preserve">
+    <value>未定义“{0}”中的主机信息</value>
+  </data>
+  <data name="LocatingServcieError" xml:space="preserve">
+    <value>在定位服务“{1}”时发现服务“{0}”出错: {2} 位于 {3}</value>
+  </data>
+  <data name="UncaughtExceptionWithStack" xml:space="preserve">
+    <value>未捕获的异常。正在退出进程，错误代码 {0}: {1} 位于 {2}。</value>
+  </data>
+  <data name="ServiceVersionNotSupported" xml:space="preserve">
+    <value>已请求的版本为 {0} 的服务不受支持。</value>
+  </data>
+  <data name="HostExited" xml:space="preserve">
+    <value>中心主机“{0}”，PID: {1} 已退出。</value>
+  </data>
+  <data name="StartingServer" xml:space="preserve">
+    <value>正在启动位于“{1}”处(位于“{2}”处)的主机“{0}”。</value>
+  </data>
+  <data name="UrlShouldStartWith" xml:space="preserve">
+    <value>URL 应该以“{0}”开头</value>
+  </data>
+  <data name="ExitCommandReceived" xml:space="preserve">
+    <value>中心主机收到退出命令。</value>
+  </data>
+  <data name="NoFolderSpecified" xml:space="preserve">
+    <value>服务中心配置未指定任务服务文件夹</value>
+  </data>
+  <data name="CannotResolveServiceModuleInfo" xml:space="preserve">
+    <value>从“{1}”无法解析和加载“{0}”的服务模块信息: {2}</value>
+  </data>
+</root>

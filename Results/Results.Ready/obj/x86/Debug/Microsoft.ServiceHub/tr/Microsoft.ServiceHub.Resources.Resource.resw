@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StartServiceRequestReceived" xml:space="preserve">
+    <value>Düğüm konağı, '{0}' hizmeti için başlatma isteği aldı</value>
+  </data>
+  <data name="LoadingServiceModule" xml:space="preserve">
+    <value>'{1}' hizmeti için '{0}' hizmet modülü bilgileri yükleniyor</value>
+  </data>
+  <data name="ClientWatchStreamException" xml:space="preserve">
+    <value>İstemci İzleme akışından okunurken özel durum oluştu. {0} : {1}</value>
+  </data>
+  <data name="HostExitedWithCode" xml:space="preserve">
+    <value>kod: '{0}' {1}.</value>
+  </data>
+  <data name="NodeHubControllerProcessCouldNotBeStarted" xml:space="preserve">
+    <value>{0} işlemi başlatılamadı</value>
+  </data>
+  <data name="VariableIsNotDefined" xml:space="preserve">
+    <value>{0} tanımlı değil</value>
+  </data>
+  <data name="ServiceLocated" xml:space="preserve">
+    <value>{2} tarafından bulunması istenen \'{0}\' hizmeti '{1}' konumunda bulundu</value>
+  </data>
+  <data name="InvalidConfigContents" xml:space="preserve">
+    <value>'{0}' dosyasındaki yapılandırmanın içeriği geçersiz. İçerik: {1}</value>
+  </data>
+  <data name="VariableMustBeFunction" xml:space="preserve">
+    <value>{0}, '{1}' modülünde bir işlev olmalıdır. Mevcut tür: {2}.</value>
+  </data>
+  <data name="ExitingHubController" xml:space="preserve">
+    <value>Hub denetleyicisinden çıkılıyor.</value>
+  </data>
+  <data name="AttemptToLocateServiceRetry" xml:space="preserve">
+    <value>{0} hizmetine bağlantı girişimi yeniden deneniyor - {1}. girişim</value>
+  </data>
+  <data name="ServiceHubConfigFileNameIsInvalid" xml:space="preserve">
+    <value>Hizmet Merkezi yapılandırma dosyası adı '{0}', beklenen adla eşleşmiyor: '{1}'</value>
+  </data>
+  <data name="ServiceStarted" xml:space="preserve">
+    <value>'{0}' hizmeti başarıyla başlatıldı. PID: '{1}'. Servis Uç Noktası: '{2}'</value>
+  </data>
+  <data name="ServiceEntryPointConstructorNotFound" xml:space="preserve">
+    <value>'{0}' için hizmet giriş noktası oluşturucu işlevi bulunamadı. Hizmet modülü yazmasının hizmet için entryPoint.constructorFunction özelliğini içerdiğinden emin olun.</value>
+  </data>
+  <data name="DisconnectingDiscoveryServiceFailed" xml:space="preserve">
+    <value>'{0}' ile keşif hizmetinin bağlantısı kesilirken hata oluştu: {1} {2}</value>
+  </data>
+  <data name="StartingHubHost" xml:space="preserve">
+    <value>'{0}' hub konağı başlatılıyor. Konak geri çağırma kanalı: '{1}'</value>
+  </data>
+  <data name="ServiceOverrideNotFound" xml:space="preserve">
+    <value>'{0}' hizmetini geçersiz kılmak için bir hizmet bulunamadı.</value>
+  </data>
+  <data name="HostLaunched" xml:space="preserve">
+    <value>'{0}' hub konağı başlatıldı. PID: {1}</value>
+  </data>
+  <data name="UncaughtException" xml:space="preserve">
+    <value>Yakalanmayan özel durum. {0} hata kodu ile işlemden çıkılıyor: {1}.</value>
+  </data>
+  <data name="FailedToDeleteDirectory" xml:space="preserve">
+    <value>'{0}' dosyası silinemedi. Hata türü={1}, Hata iletisi={2}</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>Dosya bulunamadı: {0}</value>
+  </data>
+  <data name="FailedToGetFileStats" xml:space="preserve">
+    <value>'{0}' dosyasının istatistikleri alınamadı. Hata türü={1}, Hata iletisi={2}</value>
+  </data>
+  <data name="HostInfoInvalid" xml:space="preserve">
+    <value>'{0}' konumundaki konak bilgileri, hostExecutable:string ve hostArgs:string[] üyelerini içermiyor</value>
+  </data>
+  <data name="NotifyHubControllerForServicesStartedFailed" xml:space="preserve">
+    <value>Hub denetleyicisine konak hizmetlerinin başlatıldığı bildirilirken hata oluştu: {0}</value>
+  </data>
+  <data name="CreateServiceInstanceError" xml:space="preserve">
+    <value>'{0}' için hizmet modülü örneği oluşturulurken bir hata oluştu, istemciye yönelik akış kapatılıyor: '{1}'.</value>
+  </data>
+  <data name="NotifyHubControllerForServicesEndedFailed" xml:space="preserve">
+    <value>Hub denetleyicisine konak hizmetlerinin sonlandırıldığı bildirilirken hata oluştu: {0}</value>
+  </data>
+  <data name="SkipHostCooldown" xml:space="preserve">
+    <value>{0} konağı için başlangıçta hata ayıklama istendiğinden startHostCooldown atlanıyor</value>
+  </data>
+  <data name="UnknownHost" xml:space="preserve">
+    <value>Bilinmeyen konak: '{0}'</value>
+  </data>
+  <data name="CloseHubStreamFailed" xml:space="preserve">
+    <value>Hub akışı kapatılırken bir hata oluştu: {0}</value>
+  </data>
+  <data name="DisposeServiceError" xml:space="preserve">
+    <value>'{1}' hizmetinin {0} örneği atılırken hata oluştu: {2}</value>
+  </data>
+  <data name="Inactivity" xml:space="preserve">
+    <value>etkin olmama</value>
+  </data>
+  <data name="HostInfoNotFound" xml:space="preserve">
+    <value>Konak bağlandığında '{0}' için HostInfo nesnesi bulunamadı</value>
+  </data>
+  <data name="ErrorShuttingDownHosts" xml:space="preserve">
+    <value>Konak işlemleri kapatılırken hata oluştu: {0}.</value>
+  </data>
+  <data name="ErrorLocationServiceEnvVarNotSet" xml:space="preserve">
+    <value>'{0}' ortam değişkeni ayarlanmalıdır.</value>
+  </data>
+  <data name="StoppedServer" xml:space="preserve">
+    <value>'{1}' adresindeki '{0}' sunucusu durduruldu.</value>
+  </data>
+  <data name="ServiceHubConfigJsonNotFound" xml:space="preserve">
+    <value>{1} veya üst dizinlerinde {0} bulunamadı</value>
+  </data>
+  <data name="StartingServiceFailed" xml:space="preserve">
+    <value>{1} tarafından istenen '{0}' hizmeti başlatılırken hata oluştu: {2}</value>
+  </data>
+  <data name="UrlHasNoPipeName" xml:space="preserve">
+    <value>url'de '{0}' öğesinden sonra kanal adı yok</value>
+  </data>
+  <data name="ServiceOverrideSearching" xml:space="preserve">
+    <value>'{0}' hizmetinde ServiceOverride etkin olarak işaretlenmiş. Bir geçersiz kılma hizmeti aranıyor.</value>
+  </data>
+  <data name="ServiceEntryPointFileNameNotFound" xml:space="preserve">
+    <value>'{0}' için hizmet giriş noktası dosya adı bulunamadı. Hizmet modülü yazmasının hizmet için entryPoint.scriptPath özelliğini içerdiğinden emin olun.</value>
+  </data>
+  <data name="ServiceRemovedFromCache" xml:space="preserve">
+    <value>'{0}' hizmeti, bulunan hizmetler önbelleğinden kaldırıldı.</value>
+  </data>
+  <data name="CannotFindServiceModuleFile" xml:space="preserve">
+    <value>'{1}' içinde hizmet '{0}' adlı modül bilgileri dosyası bulunamıyor</value>
+  </data>
+  <data name="ConnectedToService" xml:space="preserve">
+    <value>Bir istemci {0} hizmetine bağlandı</value>
+  </data>
+  <data name="ClientIsNotChildOfController" xml:space="preserve">
+    <value>'RemoteServiceBroker' kanalına bağlanan istemci, Controller işleminin alt öğesi değil.</value>
+  </data>
+  <data name="FirstTimeLoadingService" xml:space="preserve">
+    <value>'{0}' hizmeti daha önce yüklenmemiş. Şimdi yükleniyor.</value>
+  </data>
+  <data name="StoppingHost" xml:space="preserve">
+    <value>PID'si {1} olan '{0}' konağı durduruluyor: Nedeni: {2}</value>
+  </data>
+  <data name="ControllerShuttingDown" xml:space="preserve">
+    <value>'{0}' işlemi sonlandırılıyor.</value>
+  </data>
+  <data name="NamedPipeClientCouldNotBeValidated" xml:space="preserve">
+    <value>Adlandırılmış kanal istemcisi doğrulanamadı.</value>
+  </data>
+  <data name="HostShuttingDown" xml:space="preserve">
+    <value>{1} hizmetine yönelik {0} konağı kapatılıyor. Yeni bir konak başlatacağız</value>
+  </data>
+  <data name="StartingService" xml:space="preserve">
+    <value>Node konağı '{0}' hizmetini başlatıyor</value>
+  </data>
+  <data name="MessageAt" xml:space="preserve">
+    <value>konum</value>
+  </data>
+  <data name="NoValueForProperty" xml:space="preserve">
+    <value>{1} konumundaki {0} yapılandırma dosyasında {2} özelliği için değer yok</value>
+  </data>
+  <data name="ExitingHubControllerWithReason" xml:space="preserve">
+    <value>{0} nedeniyle hub denetleyicisinden çıkılıyor.</value>
+  </data>
+  <data name="FailedGetSaltString" xml:space="preserve">
+    <value>Kullanıcıya özgü salt dizesi alınamadı. {0}</value>
+  </data>
+  <data name="ServiceHubConfigFileDoesNotExist" xml:space="preserve">
+    <value>ServiceHub yapılandırma dosyası '{0}' yok</value>
+  </data>
+  <data name="VariablesAreNotDefined" xml:space="preserve">
+    <value>{0} tanımlı değil</value>
+  </data>
+  <data name="ServiceInfoInvalid" xml:space="preserve">
+    <value>'{0}' hizmeti için hizmet modülü bilgileri, ayrılmış '{1}' özelliğini içeriyor</value>
+  </data>
+  <data name="HostInfoContainsReservedProperty" xml:space="preserve">
+    <value>'{0}' konumundaki konak bilgileri, ayrılmış 'filePath' özelliğini içeriyor</value>
+  </data>
+  <data name="HostExitedWithSignal" xml:space="preserve">
+    <value>sinyal: '{0}'.</value>
+  </data>
+  <data name="ControllerConnectionWindowsShutdownExceptionMessage" xml:space="preserve">
+    <value>Windows kapatıldığı için Microsoft.ServiceHub.Controller.exe işleminden anormal şekilde çıkıldı.</value>
+  </data>
+  <data name="CannotStopLocationService" xml:space="preserve">
+    <value>Bir konum hizmeti, ara sunucudan durdurulamaz</value>
+  </data>
+  <data name="ServiceHubConfigFilePathIsNotAbsolute" xml:space="preserve">
+    <value>'{0}' ServiceHub yapılandırma dosyası yolu mutlak bir yol değil</value>
+  </data>
+  <data name="LoadingHostInfo" xml:space="preserve">
+    <value>'{0}' için konak bilgileri '{1}' konumundan yükleniyor</value>
+  </data>
+  <data name="HostTypeNotFound" xml:space="preserve">
+    <value>'{1}' içinde '{0}' konak türü bulunamıyor</value>
+  </data>
+  <data name="IgnoringDuplicateExit" xml:space="preserve">
+    <value>Yinelenen çıkış komutu yoksayılıyor.</value>
+  </data>
+  <data name="ControllerConnectionTimeoutExceptionMessage" xml:space="preserve">
+    <value>Microsoft.ServiceHub.Controller.exe işleminden bağlantı kabul edilmeden önce normal olarak çıkıldı. Denetleyici bekleme süresi zaman aşımının artırılması gerekebilir.</value>
+  </data>
+  <data name="CannotFindServiceModuleFileWithReason" xml:space="preserve">
+    <value>'{1}' içinde '{0}' adlı hizmet modül bilgileri dosyası bulunamıyor, keşif hizmetleri kullanılamadı: {2}</value>
+  </data>
+  <data name="FailedToValidateController" xml:space="preserve">
+    <value>Bağlanılan Controller işlemi doğrulanamadı.</value>
+  </data>
+  <data name="LoadingServiceFromLocation" xml:space="preserve">
+    <value>'{1}' yolundan '{0}' hizmeti yükleniyor.</value>
+  </data>
+  <data name="FailedToValidateClient" xml:space="preserve">
+    <value>'{0}' kanalına bağlanan istemci doğrulanamadı.</value>
+  </data>
+  <data name="ContextEnvironmentVariableNotFoundInProvidedEnvironment" xml:space="preserve">
+    <value>'{0}' adlı ContextEnvironmentVariable, sağlanan ortam eşlemesinde bulunamadı.</value>
+  </data>
+  <data name="CannotResolveHost" xml:space="preserve">
+    <value>'{0}' için konak bilgileri '{1}' konumundan çözülemiyor ve yüklenemiyor: {2}</value>
+  </data>
+  <data name="ServiceOverrideNotFoundWithError" xml:space="preserve">
+    <value>'{0}' hizmetini geçersiz kılmak için bir hizmet bulunamadı: {1}</value>
+  </data>
+  <data name="ControllerConnectionInvalidArgumentExceptionMessage" xml:space="preserve">
+    <value>Microsoft.ServiceHub.Controller.exe işlemi geçersiz bir komut satırıyla başlatıldı.</value>
+  </data>
+  <data name="LoadServiceModuleError" xml:space="preserve">
+    <value>'{0}' hizmet modülü yüklenirken hata oluştu: {1}</value>
+  </data>
+  <data name="hostTypeNotFoundInLocation" xml:space="preserve">
+    <value>'{0}' konak türü '{1}' veya '{2}' içinde bulunamıyor</value>
+  </data>
+  <data name="ForceControllerShutDown" xml:space="preserve">
+    <value>Hub denetleyicisi kapatmaya zorlandı.</value>
+  </data>
+  <data name="LocatingService" xml:space="preserve">
+    <value>{1} tarafından istenen '{0}' hizmeti bulunuyor</value>
+  </data>
+  <data name="ServiceHubConfigFileNameIsIncorrect" xml:space="preserve">
+    <value>'{0}' içindeki ServiceHub yapılandırma dosyasının adı 'servicehub.config.json' değil</value>
+  </data>
+  <data name="ObjectDisposed" xml:space="preserve">
+    <value>Nesne atıldı</value>
+  </data>
+  <data name="LengthCannotBeNegative" xml:space="preserve">
+    <value>Uzunluk negatif bir değer olmamalıdır</value>
+  </data>
+  <data name="CouldNotGetProcessId" xml:space="preserve">
+    <value>Bu kanala bağlanan istemcinin işlem kimliği alınamadı.</value>
+  </data>
+  <data name="MultipleFileFound" xml:space="preserve">
+    <value>Yalnızca bir dosya bekleniyor. '{0}' içinde daha fazla dosya bulundu: {1}</value>
+  </data>
+  <data name="ServiceModuleInvalidProperty" xml:space="preserve">
+    <value>'{0}' hizmeti için hizmet modülü bilgileri '{2}' özelliği için geçersiz '{1}' değerini içeriyor.</value>
+  </data>
+  <data name="ServiceStartedAfterHostShutDown" xml:space="preserve">
+    <value>'{0}' hizmeti, konağın kapatma işlemi başlatıldıktan sonra başladı. Hizmet kapatılacak.</value>
+  </data>
+  <data name="HostRemovedFromCache" xml:space="preserve">
+    <value>'{0}' konağı, konaklar önbelleğinden kaldırıldı.</value>
+  </data>
+  <data name="ControllerNotResponding" xml:space="preserve">
+    <value>Denetleyici gelen isteklere yanıt vermiyor.</value>
+  </data>
+  <data name="LogConfig" xml:space="preserve">
+    <value>Log configuration: {0}</value>
+  </data>
+  <data name="MoreThanOneHostPending" xml:space="preserve">
+    <value>Konaklardan biri konak kimliği sağlayamadı ve birden fazla konak bekliyor</value>
+  </data>
+  <data name="HostGroupNotSupported" xml:space="preserve">
+    <value>'{0}' hizmeti konak gruplarını desteklemiyor ve '{1}' konak grubunda çalıştırılamıyor. Hizmet için konak gruplarını etkinleştirmek istiyorsanız hizmetin yapılandırma dosyasında '{2}' özelliğini 'true' olarak ayarlayın.</value>
+  </data>
+  <data name="CouldNotKillHost" xml:space="preserve">
+    <value>{0} konağı sonlandırılamadı: {1}</value>
+  </data>
+  <data name="InvalidCommandLine" xml:space="preserve">
+    <value>TODO: fix this string - Invalid command line. Usage: 'node {0} [&lt;Controller channel name&gt;]'</value>
+  </data>
+  <data name="CachedHostIsShutdown" xml:space="preserve">
+    <value>Önbelleğe alınmış '{0}' konağı kapatıldı. Konak yeniden başlatılıyor.</value>
+  </data>
+  <data name="FailedToConnectToController" xml:space="preserve">
+    <value>{1} ms boyunca denendikten sonra denetleyicinin '{0}' adresindeki konum hizmetine bağlanılamadı</value>
+  </data>
+  <data name="ErrorDecoding" xml:space="preserve">
+    <value>Dize kodu çözülürken hata oluştu: {0}</value>
+  </data>
+  <data name="StartingHostError" xml:space="preserve">
+    <value>{0}'{1}' hub konağı başlatılırken bir hata oluştu: '{2}'.</value>
+  </data>
+  <data name="FailedToDeleteFile" xml:space="preserve">
+    <value>'{0}' dosyası silinemedi. Hata türü={1}, Hata iletisi={2}</value>
+  </data>
+  <data name="LaunchingHostWithCmd" xml:space="preserve">
+    <value>'{0}' hub konağı komut satırıyla başlatılıyor: '{1}'</value>
+  </data>
+  <data name="FailedToEnumerateFilesInDir" xml:space="preserve">
+    <value>'{0}' dizinindeki dosyalar numaralandırılamadı. Hata türü={1}, Hata iletisi={2}</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>{0} yükleniyor</value>
+  </data>
+  <data name="ServiceInfoInvalidSpaceInHostId" xml:space="preserve">
+    <value>'{0}' hizmeti için hizmet modülü bilgisi, '{1}' konak kimliğinde boşluk içeriyor</value>
+  </data>
+  <data name="GetHostIdFailed" xml:space="preserve">
+    <value>Yeni oluşturulan bir konağın konak kimliği alınamadı: {0}</value>
+  </data>
+  <data name="NoPipeName" xml:space="preserve">
+    <value>'{0}' öğesinden sonra kanal adı yok</value>
+  </data>
+  <data name="FailedToEnumerateDirs" xml:space="preserve">
+    <value>'{0}' içindeki dizinler numaralandırılamadı. Hata türü={1}, Hata iletisi={2}</value>
+  </data>
+  <data name="ServiceNameNotSpecified" xml:space="preserve">
+    <value>Hizmet adı belirtilmedi</value>
+  </data>
+  <data name="AllExternalClientsDisconnected" xml:space="preserve">
+    <value>Tüm dış istemcilerin bağlantısı kesildi</value>
+  </data>
+  <data name="StartServiceRequestRejected" xml:space="preserve">
+    <value>'{0}' hizmeti için startService() isteği, kapatma işleminden sonra alındığı için reddedildi</value>
+  </data>
+  <data name="ErrorParsingJson" xml:space="preserve">
+    <value>{0} dosyasından JSON ayrıştırılırken hata oluştu: {1}</value>
+  </data>
+  <data name="HostInfoNotDefined" xml:space="preserve">
+    <value>'{0}' içindeki konak bilgileri tanımlı değil</value>
+  </data>
+  <data name="LocatingServcieError" xml:space="preserve">
+    <value>Keşif hizmeti '{0}', '{1}' hizmetini bulmaya çalışırken hata oluştu: {3} içinde {2}</value>
+  </data>
+  <data name="UncaughtExceptionWithStack" xml:space="preserve">
+    <value>Yakalanmayan özel durum. {0} hata kodu ile işlemden çıkılıyor: {2} içinde {1}.</value>
+  </data>
+  <data name="ServiceVersionNotSupported" xml:space="preserve">
+    <value>{0} sürümündeki istenen hizmet desteklenmiyor.</value>
+  </data>
+  <data name="HostExited" xml:space="preserve">
+    <value>PID değeri {1} olan '{0}' hub konağından çıkıldı.</value>
+  </data>
+  <data name="StartingServer" xml:space="preserve">
+    <value>'{1}' adresindeki ('{2}' konumunda) '{0}' sunucusu başlatılıyor.</value>
+  </data>
+  <data name="UrlShouldStartWith" xml:space="preserve">
+    <value>url '{0}' ile başlamalıdır</value>
+  </data>
+  <data name="ExitCommandReceived" xml:space="preserve">
+    <value>Hub konağı, çıkış komutu aldı.</value>
+  </data>
+  <data name="NoFolderSpecified" xml:space="preserve">
+    <value>Hizmet Hub'ı yapılandırmasında hizmet klasörü belirtilmedi</value>
+  </data>
+  <data name="CannotResolveServiceModuleInfo" xml:space="preserve">
+    <value>'{0}' için hizmet modülü bilgileri '{1}' konumundan çözülemiyor ve yüklenemiyor: {2}</value>
+  </data>
+</root>

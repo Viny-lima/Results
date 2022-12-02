@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StartServiceRequestReceived" xml:space="preserve">
+    <value>ノード ホストは、サービス '{0}' の開始要求を受信しました</value>
+  </data>
+  <data name="LoadingServiceModule" xml:space="preserve">
+    <value>サービス '{1}' のサービス モジュール情報 '{0}' を読み込んでいます</value>
+  </data>
+  <data name="ClientWatchStreamException" xml:space="preserve">
+    <value>クライアント ウォッチ ストリームからの読み取りで例外がスローされました。{0} : {1}</value>
+  </data>
+  <data name="HostExitedWithCode" xml:space="preserve">
+    <value>コード: '{0}' {1}。</value>
+  </data>
+  <data name="NodeHubControllerProcessCouldNotBeStarted" xml:space="preserve">
+    <value>プロセス {0} を開始できませんでした</value>
+  </data>
+  <data name="VariableIsNotDefined" xml:space="preserve">
+    <value>{0} は定義されていません</value>
+  </data>
+  <data name="ServiceLocated" xml:space="preserve">
+    <value>'{1}' にあるサービス \'{0}\' が {2} によって要求されました</value>
+  </data>
+  <data name="InvalidConfigContents" xml:space="preserve">
+    <value>'{0}' の構成の内容が無効です。内容: {1}</value>
+  </data>
+  <data name="VariableMustBeFunction" xml:space="preserve">
+    <value>{0} は、'{1}' の関数でなければなりません。実際には {2} です。</value>
+  </data>
+  <data name="ExitingHubController" xml:space="preserve">
+    <value>ハブ コントローラーを終了しています。</value>
+  </data>
+  <data name="AttemptToLocateServiceRetry" xml:space="preserve">
+    <value>サービス {0} への接続の再試行中です - 試行回数: {1}</value>
+  </data>
+  <data name="ServiceHubConfigFileNameIsInvalid" xml:space="preserve">
+    <value>サービス ハブ構成ファイル名 '{0}' が予期された名前 '{1}' と一致しません</value>
+  </data>
+  <data name="ServiceStarted" xml:space="preserve">
+    <value>サービス '{0}' が正常に開始しました。PID: '{1}'。サービス エンドポイント: '{2}'</value>
+  </data>
+  <data name="ServiceEntryPointConstructorNotFound" xml:space="preserve">
+    <value>'{0}' のサービス エントリ ポイントのコンストラクター関数が見つかりませんでした。サービス モジュール オーサリングを確認して、サービス entryPoint.constructorFunction プロパティを必ず含めてください。</value>
+  </data>
+  <data name="DisconnectingDiscoveryServiceFailed" xml:space="preserve">
+    <value>'{0}' 探索サービスから切断中にエラーが発生しました: {1} {2}</value>
+  </data>
+  <data name="StartingHubHost" xml:space="preserve">
+    <value>ハブ ホスト '{0}' を開始しています。ホスト コールバック パイプ: '{1}'</value>
+  </data>
+  <data name="ServiceOverrideNotFound" xml:space="preserve">
+    <value>'{0}' サービスをオーバーライドするサービスが見つかりませんでした。</value>
+  </data>
+  <data name="HostLaunched" xml:space="preserve">
+    <value>'{0}' ハブ ホストを起動しました。PID: {1}</value>
+  </data>
+  <data name="UncaughtException" xml:space="preserve">
+    <value>キャッチされない例外です。エラー コード {0} でプロセスを終了しています: {1}。</value>
+  </data>
+  <data name="FailedToDeleteDirectory" xml:space="preserve">
+    <value>ファイル '{0}' の削除に失敗しました。エラーの種類={1}、エラー メッセージ={2}</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>ファイルが見つかりませんでした: {0}</value>
+  </data>
+  <data name="FailedToGetFileStats" xml:space="preserve">
+    <value>ファイル '{0}' の統計情報を取得できませんでした。エラーの種類={1}、エラー メッセージ={2}</value>
+  </data>
+  <data name="HostInfoInvalid" xml:space="preserve">
+    <value>'{0}' のホスト情報には、hostExecutable:string と hostArgs:string[] メンバーがありません</value>
+  </data>
+  <data name="NotifyHubControllerForServicesStartedFailed" xml:space="preserve">
+    <value>ホスト サービスが開始されたことをハブ コントローラーに通知中にエラーが発生しました: {0}</value>
+  </data>
+  <data name="CreateServiceInstanceError" xml:space="preserve">
+    <value>'{0}' のサービス モジュール インスタンスを作成中にエラーが発生しました。クライアントへのストリームを閉じています: {1}'。</value>
+  </data>
+  <data name="NotifyHubControllerForServicesEndedFailed" xml:space="preserve">
+    <value>ホスト サービスが終了したことをハブ コントローラーに通知中にエラーが発生しました: {0}</value>
+  </data>
+  <data name="SkipHostCooldown" xml:space="preserve">
+    <value>ホスト {0} に対して起動時のデバッグが要求されたため、startHostCooldown をスキップしています</value>
+  </data>
+  <data name="UnknownHost" xml:space="preserve">
+    <value>'{0}' は不明なホストです</value>
+  </data>
+  <data name="CloseHubStreamFailed" xml:space="preserve">
+    <value>ハブ ストリームを閉じるときにエラーが発生しました: {0}</value>
+  </data>
+  <data name="DisposeServiceError" xml:space="preserve">
+    <value>'{1}' サービスの {0} インスタンスを破棄しているときにエラーが発生しました: {2}</value>
+  </data>
+  <data name="Inactivity" xml:space="preserve">
+    <value>アイドル時間</value>
+  </data>
+  <data name="HostInfoNotFound" xml:space="preserve">
+    <value>いくつかのホストが接続されたときに、'{0}' の HostInfo オブジェクトが見つかりませんでした</value>
+  </data>
+  <data name="ErrorShuttingDownHosts" xml:space="preserve">
+    <value>ホスト プロセス {0} のシャットダウン中にエラーが発生しました。</value>
+  </data>
+  <data name="ErrorLocationServiceEnvVarNotSet" xml:space="preserve">
+    <value>環境変数 '{0}' を設定する必要があります。</value>
+  </data>
+  <data name="StoppedServer" xml:space="preserve">
+    <value>'{1}' でサーバー '{0}' を停止しました。</value>
+  </data>
+  <data name="ServiceHubConfigJsonNotFound" xml:space="preserve">
+    <value>{1} とその親ディレクトリのどこにも {0} が見つかりませんでした</value>
+  </data>
+  <data name="StartingServiceFailed" xml:space="preserve">
+    <value>{1} によって要求されたサービス '{0}' を開始中にエラーが発生しました: {2}</value>
+  </data>
+  <data name="UrlHasNoPipeName" xml:space="preserve">
+    <value>URL の '{0}' の後にパイプ名がありません</value>
+  </data>
+  <data name="ServiceOverrideSearching" xml:space="preserve">
+    <value>'{0}' は、ServiceOverride が有効であるとマークされています。オーバーライド サービスを検索しています。</value>
+  </data>
+  <data name="ServiceEntryPointFileNameNotFound" xml:space="preserve">
+    <value>'{0}' のサービス エントリ ポイントのファイル名が見つかりませんでした。サービス モジュール オーサリングを確認して、サービス entryPoint.scriptPath プロパティを必ず含めてください。</value>
+  </data>
+  <data name="ServiceRemovedFromCache" xml:space="preserve">
+    <value>サービス '{0}' は配置されたサービス キャッシュから削除されました。</value>
+  </data>
+  <data name="CannotFindServiceModuleFile" xml:space="preserve">
+    <value>'{1}' にサービス モジュール情報ファイル '{0}' が見つかりません</value>
+  </data>
+  <data name="ConnectedToService" xml:space="preserve">
+    <value>クライアントが {0} に接続されました</value>
+  </data>
+  <data name="ClientIsNotChildOfController" xml:space="preserve">
+    <value>'RemoteServiceBroker' パイプに接続しているクライアントは、Controller プロセスの子ではありません。</value>
+  </data>
+  <data name="FirstTimeLoadingService" xml:space="preserve">
+    <value>サービス '{0}' はこれまでに読み込まれていません。今読み込んでいます。</value>
+  </data>
+  <data name="StoppingHost" xml:space="preserve">
+    <value>ホスト '{0}' PID: {1} を {2} のために停止しています</value>
+  </data>
+  <data name="ControllerShuttingDown" xml:space="preserve">
+    <value>'{0}' プロセスを終了しています。</value>
+  </data>
+  <data name="NamedPipeClientCouldNotBeValidated" xml:space="preserve">
+    <value>名前付きパイプ クライアントを検証できませんでした。</value>
+  </data>
+  <data name="HostShuttingDown" xml:space="preserve">
+    <value>サービス {1} のホスト {0} をシャットダウンしています。新しいホストを起動する予定です</value>
+  </data>
+  <data name="StartingService" xml:space="preserve">
+    <value>ノード ホストがサービス '{0}' を開始しています</value>
+  </data>
+  <data name="MessageAt" xml:space="preserve">
+    <value>場所</value>
+  </data>
+  <data name="NoValueForProperty" xml:space="preserve">
+    <value>{1} の {0} に、{2} プロパティの値がありません</value>
+  </data>
+  <data name="ExitingHubControllerWithReason" xml:space="preserve">
+    <value>{0} のためハブ コントローラーを終了しています。</value>
+  </data>
+  <data name="FailedGetSaltString" xml:space="preserve">
+    <value>ユーザー固有の salt 文字列を取得できませんでした。{0}</value>
+  </data>
+  <data name="ServiceHubConfigFileDoesNotExist" xml:space="preserve">
+    <value>ServiceHub 構成ファイル '{0}' がありません</value>
+  </data>
+  <data name="VariablesAreNotDefined" xml:space="preserve">
+    <value>{0} は定義されていません</value>
+  </data>
+  <data name="ServiceInfoInvalid" xml:space="preserve">
+    <value>サービス '{0}' のサービス モジュール情報には、予約された '{1}' プロパティが含まれています</value>
+  </data>
+  <data name="HostInfoContainsReservedProperty" xml:space="preserve">
+    <value>'{0}' のホスト情報には、予約済みの 'filePath' プロパティが含まれています</value>
+  </data>
+  <data name="HostExitedWithSignal" xml:space="preserve">
+    <value>シグナル: '{0}'。</value>
+  </data>
+  <data name="ControllerConnectionWindowsShutdownExceptionMessage" xml:space="preserve">
+    <value>Windows がシャットダウン中のため、Microsoft.ServiceHub.Controller.exe が異常終了しました。</value>
+  </data>
+  <data name="CannotStopLocationService" xml:space="preserve">
+    <value>プロキシからロケーション サービスを停止できません</value>
+  </data>
+  <data name="ServiceHubConfigFilePathIsNotAbsolute" xml:space="preserve">
+    <value>ServiceHub 構成ファイルのパス '{0}' が絶対パスではありません</value>
+  </data>
+  <data name="LoadingHostInfo" xml:space="preserve">
+    <value>'{1}' から '{0}' のホスト情報を読み込んでいます</value>
+  </data>
+  <data name="HostTypeNotFound" xml:space="preserve">
+    <value>'{1}' でホストの種類 '{0}' が見つかりません</value>
+  </data>
+  <data name="IgnoringDuplicateExit" xml:space="preserve">
+    <value>重複する exit コマンドを無視しています。</value>
+  </data>
+  <data name="ControllerConnectionTimeoutExceptionMessage" xml:space="preserve">
+    <value>Microsoft.ServiceHub.Controller.exe は、接続を受け入れる前に正常に終了しました。コントローラーのクールダウン タイムアウトの増加が必要になる場合があります。</value>
+  </data>
+  <data name="CannotFindServiceModuleFileWithReason" xml:space="preserve">
+    <value>'{1}' にサービス モジュール情報ファイル '{0}' が見つかりません。探索サービスを使用できませんでした: {2}</value>
+  </data>
+  <data name="FailedToValidateController" xml:space="preserve">
+    <value>接続先の Controller プロセスを検証できませんでした。</value>
+  </data>
+  <data name="LoadingServiceFromLocation" xml:space="preserve">
+    <value>サービス '{0}' を '{1}' から読み込んでいます。</value>
+  </data>
+  <data name="FailedToValidateClient" xml:space="preserve">
+    <value>'{0}' パイプに接続しているクライアントを検証できませんでした。</value>
+  </data>
+  <data name="ContextEnvironmentVariableNotFoundInProvidedEnvironment" xml:space="preserve">
+    <value>ContextEnvironmentVariable '{0}' が指定された環境マップで見つかりませんでした。</value>
+  </data>
+  <data name="CannotResolveHost" xml:space="preserve">
+    <value>'{1}' から '{0}' のホスト情報を解決して読み込むことができません: {2}</value>
+  </data>
+  <data name="ServiceOverrideNotFoundWithError" xml:space="preserve">
+    <value>'{0}' サービスをオーバーライドするサービスが見つかりませんでした。{1}</value>
+  </data>
+  <data name="ControllerConnectionInvalidArgumentExceptionMessage" xml:space="preserve">
+    <value>Microsoft.ServiceHub.Controller.exe が無効なコマンド ラインで開始されました。</value>
+  </data>
+  <data name="LoadServiceModuleError" xml:space="preserve">
+    <value>サービス モジュール '{0}' の読み込み中にエラーが発生しました: {1}</value>
+  </data>
+  <data name="hostTypeNotFoundInLocation" xml:space="preserve">
+    <value>'{1}' または '{2}' でホストの種類 '{0}' が見つかりません</value>
+  </data>
+  <data name="ForceControllerShutDown" xml:space="preserve">
+    <value>ハブ コントローラーを強制的にシャットダウンしました。</value>
+  </data>
+  <data name="LocatingService" xml:space="preserve">
+    <value>{1} によって要求されたサービス '{0}' を探しています</value>
+  </data>
+  <data name="ServiceHubConfigFileNameIsIncorrect" xml:space="preserve">
+    <value>'{0}' の ServiceHub 構成ファイル名が 'servicehub.config.json' と一致しません</value>
+  </data>
+  <data name="ObjectDisposed" xml:space="preserve">
+    <value>オブジェクトは破棄されています</value>
+  </data>
+  <data name="LengthCannotBeNegative" xml:space="preserve">
+    <value>長さを負の値にすることはできません</value>
+  </data>
+  <data name="CouldNotGetProcessId" xml:space="preserve">
+    <value>このパイプに接続しているクライアントのプロセス ID を取得できませんでした。</value>
+  </data>
+  <data name="MultipleFileFound" xml:space="preserve">
+    <value>必要なファイルは 1 つだけです。実際には '{0}' で複数検出されました: {1}</value>
+  </data>
+  <data name="ServiceModuleInvalidProperty" xml:space="preserve">
+    <value>サービス '{0}' のサービス モジュール情報に、'{2}' プロパティの無効な値 '{1}' が含まれています。</value>
+  </data>
+  <data name="ServiceStartedAfterHostShutDown" xml:space="preserve">
+    <value>ホストのシャットダウンが開始された後にサービス '{0}' が開始しました。サービスはシャットダウンします。</value>
+  </data>
+  <data name="HostRemovedFromCache" xml:space="preserve">
+    <value>ホスト '{0}' が、ホスト キャッシュから削除されました。</value>
+  </data>
+  <data name="ControllerNotResponding" xml:space="preserve">
+    <value>コントローラーは着信要求に応答していません。</value>
+  </data>
+  <data name="LogConfig" xml:space="preserve">
+    <value>Log configuration: {0}</value>
+  </data>
+  <data name="MoreThanOneHostPending" xml:space="preserve">
+    <value>ホストの 1 つがホスト ID を提供できなかったため、複数のホストが保留中です</value>
+  </data>
+  <data name="HostGroupNotSupported" xml:space="preserve">
+    <value>サービス '{0}' はホスト グループをサポートしていないため、ホスト グループ '{1}' では実行できません。サービスをホスト グループで有効にするには、サービス構成ファイルで '{2}' プロパティを 'true' に設定します。</value>
+  </data>
+  <data name="CouldNotKillHost" xml:space="preserve">
+    <value>ホスト {0} を強制終了できませんでした: {1}</value>
+  </data>
+  <data name="InvalidCommandLine" xml:space="preserve">
+    <value>TODO: この文字列 - を修正します。コマンド ラインが無効です。使用法: 'node {0} [&lt;コントローラー チャンネル名&gt;]'</value>
+  </data>
+  <data name="CachedHostIsShutdown" xml:space="preserve">
+    <value>キャッシュされたホスト '{0}' はシャットダウンされました。ホストを再起動しています。</value>
+  </data>
+  <data name="FailedToConnectToController" xml:space="preserve">
+    <value>'{0}' で、コントローラーのロケーション サービスに {1} ミリ秒間接続を試みましたが、接続できませんでした</value>
+  </data>
+  <data name="ErrorDecoding" xml:space="preserve">
+    <value>文字列のデコード中にエラーが発生しました: {0}</value>
+  </data>
+  <data name="StartingHostError" xml:space="preserve">
+    <value>ハブ ホスト {0}'{1}' を開始中にエラーが発生しました: '{2}'。</value>
+  </data>
+  <data name="FailedToDeleteFile" xml:space="preserve">
+    <value>ファイル '{0}' の削除に失敗しました。エラーの種類={1}、エラー メッセージ={2}</value>
+  </data>
+  <data name="LaunchingHostWithCmd" xml:space="preserve">
+    <value>コマンド ラインで '{0}' ハブ ホストを起動しています: '{1}'</value>
+  </data>
+  <data name="FailedToEnumerateFilesInDir" xml:space="preserve">
+    <value>ディレクトリ '{0}' 内のファイルを列挙できませんでした。エラーの種類={1}、エラー メッセージ={2}</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>'{0}' を読み込んでいます</value>
+  </data>
+  <data name="ServiceInfoInvalidSpaceInHostId" xml:space="preserve">
+    <value>サービス '{0}' のサービス モジュール情報で、ホスト ID '{1}' にスペースが含まれています</value>
+  </data>
+  <data name="GetHostIdFailed" xml:space="preserve">
+    <value>新しく作成されたホストのホスト ID を取得できません: {0}</value>
+  </data>
+  <data name="NoPipeName" xml:space="preserve">
+    <value>'{0}' の後にパイプ名がありません</value>
+  </data>
+  <data name="FailedToEnumerateDirs" xml:space="preserve">
+    <value>'{0}' 内のディレクトリを列挙できませんでした。エラーの種類={1}、エラー メッセージ={2}</value>
+  </data>
+  <data name="ServiceNameNotSpecified" xml:space="preserve">
+    <value>サービス名が指定されていません</value>
+  </data>
+  <data name="AllExternalClientsDisconnected" xml:space="preserve">
+    <value>すべての外部クライアントが切断されました</value>
+  </data>
+  <data name="StartServiceRequestRejected" xml:space="preserve">
+    <value>サービス '{0}' への startService() 要求は、シャットダウン後に受信されたため、拒否されました</value>
+  </data>
+  <data name="ErrorParsingJson" xml:space="preserve">
+    <value>ファイル {0} から JSON を解析中にエラーが発生しました: {1}</value>
+  </data>
+  <data name="HostInfoNotDefined" xml:space="preserve">
+    <value>'{0}' のホスト情報が定義されていません</value>
+  </data>
+  <data name="LocatingServcieError" xml:space="preserve">
+    <value>サービス '{1}' を検索中に探索サービス '{0}' でエラーが発生しました: {3} での {2}</value>
+  </data>
+  <data name="UncaughtExceptionWithStack" xml:space="preserve">
+    <value>キャッチされない例外です。エラー コード {0} でプロセスを終了しています: {2} での {1}。</value>
+  </data>
+  <data name="ServiceVersionNotSupported" xml:space="preserve">
+    <value>バージョン {0} の要求されたサービスはサポートされていません。</value>
+  </data>
+  <data name="HostExited" xml:space="preserve">
+    <value>ハブ ホスト '{0}'、PID: {1} は終了しました。</value>
+  </data>
+  <data name="StartingServer" xml:space="preserve">
+    <value>'{1}' で ('{2}' で) サーバー '{0}' を開始しています。</value>
+  </data>
+  <data name="UrlShouldStartWith" xml:space="preserve">
+    <value>URL の先頭は '{0}' にしてください</value>
+  </data>
+  <data name="ExitCommandReceived" xml:space="preserve">
+    <value>ハブ ホストが exit コマンドを受信しました。</value>
+  </data>
+  <data name="NoFolderSpecified" xml:space="preserve">
+    <value>Service Hub 構成でサービス フォルダーが指定されていません</value>
+  </data>
+  <data name="CannotResolveServiceModuleInfo" xml:space="preserve">
+    <value>'{1}' から '{0}' のサービス モジュール情報を解決して読み込むことができません: {2}</value>
+  </data>
+</root>
